@@ -1,0 +1,134 @@
+Using Concorde/CPLEX
+Input in TSPLIB format
+Using fixed seed of 99
+Executing on prod-exec-7.neos-server.org
+concorde -f -s 99 -o results.txt concorde.dat
+Host: prod-exec-7.neos-server.org  Current process id: 4115181
+Using random seed 99
+Problem Name: SYN_100_2
+Problem Type: TSP
+edge weights = road metres / 1
+Number of Nodes: 101
+Explicit Lengths (CC_MATRIXNORM)
+Set initial upperbound to 414524 (from tour)
+  LP Value  1: 366739.750000  (0.03 seconds)
+  LP Value  2: 401500.400000  (0.06 seconds)
+  LP Value  3: 410680.300000  (0.09 seconds)
+  LP Value  4: 412932.677778  (0.13 seconds)
+  LP Value  5: 414123.500000  (0.18 seconds)
+  LP Value  6: 414514.750000  (0.22 seconds)
+  LP Value  7: 414524.000000  (0.23 seconds)
+New lower bound: 414524.000000
+Final lower bound 414524.000000, upper bound 414524.000000
+Exact lower bound: 414524.000000
+DIFF: 0.000000
+Final LP has 176 rows, 421 columns, 3351 nonzeros
+Optimal Solution: 414524.00
+Number of bbnodes: 1
+Total Running Time: 0.38 (seconds)
+
+
+Solution file output:
+101 101
+0 26 4208
+26 81 673
+81 45 352
+45 75 734
+75 59 5401
+59 86 477
+86 46 4103
+46 9 9706
+9 6 10437
+6 66 228
+66 12 1939
+12 88 3100
+88 23 13184
+23 10 705
+10 37 3929
+37 28 706
+28 93 504
+93 60 1434
+60 2 4865
+2 24 8113
+24 89 488
+89 27 940
+27 65 540
+65 71 4958
+71 76 169
+76 82 1107
+82 77 4002
+77 22 658
+22 53 240
+53 58 5815
+58 48 1295
+48 15 683
+15 97 10353
+97 43 899
+43 19 7395
+19 83 6410
+83 80 5034
+80 30 4813
+30 32 668
+32 78 2774
+78 13 4119
+13 100 2530
+100 17 461
+17 20 777
+20 21 3481
+21 62 15897
+62 50 9076
+50 42 1844
+42 68 1017
+68 91 662
+91 96 12331
+96 92 8843
+92 61 7873
+61 90 1021
+90 56 1261
+56 7 984
+7 16 11117
+16 44 16165
+44 3 630
+3 64 9755
+64 47 13704
+47 25 15787
+25 1 8818
+1 99 15187
+99 34 15392
+34 52 19569
+52 79 199
+79 40 17792
+40 87 9229
+87 67 227
+67 51 853
+51 14 10943
+14 33 9138
+33 72 4708
+72 57 5283
+57 29 609
+29 85 1471
+85 95 316
+95 54 1160
+54 55 2366
+55 35 152
+35 70 677
+70 49 1028
+49 31 739
+31 84 1105
+84 18 1655
+18 74 902
+74 41 1727
+41 8 405
+8 36 266
+36 11 298
+11 38 400
+38 63 249
+63 98 932
+98 39 1076
+39 94 758
+94 4 549
+4 73 188
+73 69 925
+69 5 3055
+5 0 804
+

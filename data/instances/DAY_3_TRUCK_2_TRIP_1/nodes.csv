@@ -1,0 +1,8 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.427,27.171,1,97,strong,9.0,12.0,"I'm at work outside 9-12, that window is preferred."
+2,46.468,27.308,2,117,mild,8.0,10.0,"I'd ask for 8:00-10:00 if it's possible, no drama otherwise."
+3,46.424,27.284,3,55,strong,10.0,12.0,"Between 10 and 12 works best for us, we're not home in the morning."
+4,46.454,27.377,4,113,mild,10.0,13.0,"It would be better from 10 to 1, but any other time is ok too."
+5,46.543,27.343,5,58,strong,10.0,13.0,"I need it between 10 am and 1 pm if you can, the plasterers are here then."
+6,46.593,27.276,6,156,mild,12.0,17.0,"I'd ask after 12 pm if possible, small child asleep before."

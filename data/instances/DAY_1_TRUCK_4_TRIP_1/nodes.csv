@@ -1,0 +1,15 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.353,27.193,1,48,binding,8.0,9.0,"Strictly until 9 am, the only slot the security lets trucks in."
+2,46.355,27.183,2,61,strong,9.0,12.0,"Between 9:00 and 12:00 is preferred, I have an appointment in the morning."
+3,46.301,27.096,3,157,mild,8.0,11.0,"Ideally before 11, would be nice, not a must."
+4,46.206,27.108,4,189,flexible,,,"Anytime you like, I work from home and the door is open."
+5,46.206,27.106,5,153,mild,8.0,12.0,"If you can, before 12. It would be better for me but not essential."
+6,46.305,26.996,6,231,none,,,Please text me when you're 15 minutes away.
+7,46.298,26.986,7,221,none,,,Please bring the invoice on paper as well.
+8,46.358,26.887,8,57,strong,12.0,15.0,"prefer 12 pm - 3 pm, the rest of the day im out with the car"
+9,46.363,26.925,9,106,strong,8.0,13.0,"Until 1 pm would be better, I'm not available after, I work nights."
+10,46.344,26.935,10,131,mild,8.0,15.0,"before 3 would be great, otherwise just ring the bell, someone is usually there"
+11,46.332,27.006,11,81,strong,8.0,15.0,"prefer until 3, after that nobody home, my son could take it but he is at school"
+12,46.442,26.882,12,232,none,,,"The gate code is 2580, drive in."
+13,46.48,26.913,13,105,strong,14.0,16.0,"I'd say 14:00 to 16:00, that's when I'm home for sure, otherwise call before."

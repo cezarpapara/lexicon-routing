@@ -1,0 +1,7 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.719,26.71,1,11,binding,8.0,10.0,"I'm at work the rest of the day, I'm only home 8-10. Cannot be moved."
+2,46.582,26.911,2,236,none,,,"The address in the system is wrong, it's number 27 not 72."
+3,46.572,26.897,3,206,flexible,,,"Any slot works, please leave it behind the gate if I'm in the garden."
+4,46.563,26.913,4,111,mild,9.0,12.0,"If possible between 9 and 12, but it's not a big deal."
+5,46.569,26.915,5,199,flexible,,,"anytime, whenever, no problem at all"

@@ -1,0 +1,251 @@
+id,message,window_start,window_end,band
+1,"I'm only home between 12 and 15, otherwise nobody can receive the order.",12:00,15:00,binding
+2,"Delivery must be between 14 and 16, no other option, I work shifts.",14:00,16:00,binding
+3,The only slot that works is 9:00 to 12:00. Outside that the gate is locked.,09:00,12:00,binding
+4,"strictly 9-11, the building manager is there only then",09:00,11:00,binding
+5,"Has to be from 3 pm to 5 pm, I have a doctor appointment after and the neighbour can't sign.",15:00,17:00,binding
+6,"Very urgent: between 13 and 16 only, I'm leaving town in the afternoon and I need the materials before.",13:00,16:00,binding
+7,"Only between 2 pm and 4 pm. My shift starts right after, otherwise it goes back to the store.",14:00,16:00,binding
+8,"I insist on 10 am-1 pm, it's the only time somebody is at the site.",10:00,13:00,binding
+9,"Between 13:00 and 15:00 and nothing else pls, the crane is booked for that window.",13:00,15:00,binding
+10,"mandatory 10 to 13, the workers are on site only then, after that the yard is closed",10:00,13:00,binding
+11,"I'm at work the rest of the day, I'm only home 12:00-14:00. Cannot be moved.",12:00,14:00,binding
+12,"10 to 13 is the only time, no one home otherwise, we both work",10:00,13:00,binding
+13,"The tiles must arrive between 8:00 and 11:00, the fitters are paid by the hour and leave after that.",08:00,11:00,binding
+14,"Absolutely between 14:00 and 17:00, I have to be at the hospital afterwards with my mother.",14:00,17:00,binding
+15,"Only after 15, I'm at work until then and nobody else can receive it.",15:00,17:00,binding
+16,"Must be after 15:00. Before that the house is empty, don't come earlier.",15:00,17:00,binding
+17,"not before 3 pm!! i work until then, there is no other option",15:00,17:00,binding
+18,"Strictly after 9:00, my shift ends then. If you come earlier nobody can receive the order.",09:00,17:00,binding
+19,"From 11 onwards only. I'm out all morning with the kids, cannot be moved.",11:00,17:00,binding
+20,"urgent - after 10 only, I have no one to leave home before that",10:00,17:00,binding
+21,"Has to be after 16:00, the access road is blocked by the roadworks until then.",16:00,17:00,binding
+22,"After 4 and not a minute earlier, I'm the only one with the keys and I'm at work.",16:00,17:00,binding
+23,I'm only home after 10. Otherwise I cannot receive it and I really need it today.,10:00,17:00,binding
+24,"Delivery after 16:00 is mandatory, we are at the notary before that and the building has no reception.",16:00,17:00,binding
+25,"Must be before 3 pm, I leave at 3 pm for a night shift and I'm back only tomorrow.",08:00,15:00,binding
+26,"Only before 4 pm!! after that nobody is home, no other option",08:00,16:00,binding
+27,"By 15:00 at the latest, the only time somebody is here. Otherwise I will postpone the whole order.",08:00,15:00,binding
+28,"strictly before 1, I'm leaving town for a week",08:00,13:00,binding
+29,Has to be before 9 am. The site closes then and the guard does not accept deliveries.,08:00,09:00,binding
+30,"Until 11 only, I have an appointment I cannot move. Very urgent, the plumber comes tomorrow morning.",08:00,11:00,binding
+31,"Before 16:00 and no later, I insist, after that I'm at work until late.",08:00,16:00,binding
+32,"I'm only home until 12 pm, absolutely not after that.",08:00,12:00,binding
+33,"No later than 4 pm, mandatory, we are pouring the concrete at 4 pm and need the rebar before.",08:00,16:00,binding
+34,"before 16:00 pls, must!! im leaving with the car at 16:00 and nobody stays home",08:00,16:00,binding
+35,"Morning only. I work afternoons and there is no one else, cannot be moved.",08:00,12:00,binding
+36,"Must be in the morning, I'm the only one home and I leave at lunch for the hospital.",08:00,12:00,binding
+37,"strictly morning, the road to the house is closed after lunch for asphalt works",08:00,12:00,binding
+38,"Afternoon only, in the morning I'm at work and nobody can receive it. No other option.",13:00,17:00,binding
+39,"Must be in the afternoon, mandatory. The morning is out, we are all at the funeral.",13:00,17:00,binding
+40,"Only in the afternoon!! the kids are at school in the morning and I'm at work, otherwise I cannot receive",13:00,17:00,binding
+41,"Around noon only, it's my lunch break and the only time I can be at the flat. Has to be then.",11:00,14:00,binding
+42,"Lunchtime only, between my two shifts. I insist, otherwise it goes back.",11:00,14:00,binding
+43,"Late afternoon only, must, I finish work at 3 and the neighbours won't take it.",15:00,17:00,binding
+44,"Only late in the afternoon, no other option, both of us work until then.",15:00,17:00,binding
+45,"We can unload only 8:00-11:00, the forklift is rented for that slot. Very urgent.",08:00,11:00,binding
+46,"the caretaker is in only from 10 am to 1 pm, must be then or nobody opens",10:00,13:00,binding
+47,Not before 12. The concrete floor is being poured in the morning and no truck can enter.,12:00,17:00,binding
+48,"Strictly until 11:00, the only slot the security lets trucks in.",08:00,11:00,binding
+49,MUST be 9:00 to 11:00. I already took time off work for this window.,09:00,11:00,binding
+50,"after 16 only, im at the doctor with the baby in the morning, cannot be moved",16:00,17:00,binding
+51,"I would prefer between 11 and 13, that's when I'm usually home.",11:00,13:00,strong
+52,"Preferably 12-14, I'm at work the rest of the day but my father could open if needed.",12:00,14:00,strong
+53,"8 am to 10 am suits me best, I need to be at the school later.",08:00,10:00,strong
+54,"I'd prefer from 1 pm to 4 pm, otherwise I will postpone to another day.",13:00,16:00,strong
+55,"Between 3 and 5 works best for us, we're not home in the morning.",15:00,17:00,strong
+56,"I'm counting on 8-11, I took the afternoon off for this.",08:00,11:00,strong
+57,"prefer 10:00 - 12:00, the rest of the day im out with the car",10:00,12:00,strong
+58,"I need it between 11 am and 2 pm if you can, the plasterers are here then.",11:00,14:00,strong
+59,That would suit me: 2 to 4. Outside that I'm probably not at home.,14:00,16:00,strong
+60,"We're home 14-16 for sure, I'd prefer you come then.",14:00,16:00,strong
+61,"Between 13 and 15 is preferred, I have an appointment in the morning.",13:00,15:00,strong
+62,"I'm not home before 8 am and I'm leaving at 10 am, so that window would be best.",08:00,10:00,strong
+63,"I would prefer after 14:00, I'm at work until then.",14:00,17:00,strong
+64,"After 4 pm suits me best, the mornings are hard with the small child.",16:00,17:00,strong
+65,"preferably after 10 am, not home before that usually",10:00,17:00,strong
+66,"I need it after 16:00 please, my shift ends then.",16:00,17:00,strong
+67,"I'm out of town until 11, prefer you come after that.",11:00,17:00,strong
+68,"Not available before 3, I'm at the doctor with my mother. After that is fine.",15:00,17:00,strong
+69,"after 4 pm pls, i work until then, my wife might be home earlier but not sure",16:00,17:00,strong
+70,"From 10 onwards would be better, I'm counting on that.",10:00,17:00,strong
+71,I'd prefer after 9:00; before that the gate is usually locked because I'm at work.,09:00,17:00,strong
+72,"Later than 11 if you can, I'm away in the morning.",11:00,17:00,strong
+73,"Preferably before 9, I leave for work then.",08:00,09:00,strong
+74,"I would prefer until 12:00, after that I'm at work.",08:00,12:00,strong
+75,"Before 9:00 suits me best, I have an appointment in town afterwards.",08:00,09:00,strong
+76,"by 12 would be best, im leaving with the kids after",08:00,12:00,strong
+77,"I need it before 11, the builders are waiting for the cement.",08:00,11:00,strong
+78,"Until 3 please, I'm not home in the afternoon, I'm at work.",08:00,15:00,strong
+79,"I'd prefer before 3 pm, otherwise I will postpone it.",08:00,15:00,strong
+80,"Before 10:00 if possible, I'm counting on it, the painter comes at 10:00.",08:00,10:00,strong
+81,"prefer until 13:00, after that nobody home, my son could take it but he is at school",08:00,13:00,strong
+82,"No later than 2 preferably, I'm leaving town in the afternoon.",08:00,14:00,strong
+83,"I would prefer the morning, I'm at work in the afternoon.",08:00,12:00,strong
+84,"Morning suits me best, I need the boards before the carpenter arrives at lunch.",08:00,12:00,strong
+85,"preferably in the morning, afternoons im not home",08:00,12:00,strong
+86,"Morning would be better for me, I'm counting on it, I have a shift later.",08:00,12:00,strong
+87,"I'd prefer the afternoon, I'm at work in the morning.",13:00,17:00,strong
+88,"Afternoon please, I need to be at the school in the morning.",13:00,17:00,strong
+89,"preferably afternoon, we are not home before lunch",13:00,17:00,strong
+90,"In the afternoon works best, I'm away in the morning with the car.",13:00,17:00,strong
+91,"Around noon would suit me, I come home for lunch.",11:00,14:00,strong
+92,"Preferably at lunchtime, that's when I'm home between the two jobs.",11:00,14:00,strong
+93,"I'd prefer around midday, I need to leave again in the afternoon.",11:00,14:00,strong
+94,"Late afternoon is preferred, I finish work at 3.",15:00,17:00,strong
+95,"I would prefer late in the afternoon, I'm at work until then.",15:00,17:00,strong
+96,"towards the end of the day pls, im at work, my neighbour can take it if needed",15:00,17:00,strong
+97,"I'm at work outside 8-10, that window is preferred.",08:00,10:00,strong
+98,"The fitters are here from 13 to 16, I need the sacks then if you can.",13:00,16:00,strong
+99,"I have an appointment in the morning, after 3 pm suits me.",15:00,17:00,strong
+100,"I'm leaving at 9, before that would suit me best.",08:00,09:00,strong
+101,"between 1 pm and 3 pm if you can, we're not available the rest of the day",13:00,15:00,strong
+102,"Prefer after 10. Not at home before, the dog is alone and can't sign :)",10:00,17:00,strong
+103,"Morning preferred, I work the second shift.",08:00,12:00,strong
+104,"Afternoon suits me, I have the doctor in the morning.",13:00,17:00,strong
+105,"I'd say 1 pm to 4 pm, that's when I'm home for sure, otherwise call before.",13:00,16:00,mild
+106,"Until 10 would be better, I'm not available after, I work nights.",08:00,10:00,strong
+107,"I'm away till 10 am, please come after.",10:00,17:00,strong
+108,"Preferred slot 9:00-11:00, my husband is home then.",09:00,11:00,strong
+109,"Later in the day please, I'm not home before 3.",15:00,17:00,strong
+110,9 am-11 am preferably. I have a small child at home and nap time is after that.,09:00,11:00,strong
+111,"If possible between 12 pm and 3 pm, but it's not a big deal.",12:00,15:00,mild
+112,"Ideally 10-13, if it works for you.",10:00,13:00,mild
+113,"It would be better from 10 to 1, but any other time is ok too.",10:00,13:00,mild
+114,"Please try 14 to 16 if you can, otherwise leave it with the neighbour.",14:00,16:00,mild
+115,maybe between 8 am and 11 am? not a must,08:00,11:00,mild
+116,"I hope you can come between 11 and 13, would be nice.",11:00,13:00,mild
+117,"I'd ask for 8-11 if it's possible, no drama otherwise.",08:00,11:00,mild
+118,"10 to 13 would be great, but I can manage other hours as well.",10:00,13:00,mild
+119,"if you can, 14:00-16:00. if not, just call me.",14:00,16:00,mild
+120,"Perhaps between 3 pm and 5 pm, but really whenever is fine.",15:00,17:00,mild
+121,"If possible after 10:00, but not a problem otherwise.",10:00,17:00,mild
+122,"Ideally after 1 pm, if it works for you.",13:00,17:00,mild
+123,"after 13:00 would be nice, but ok if not",13:00,17:00,mild
+124,"Please try after 9 am if you can, I have a small child and mornings are chaos.",09:00,17:00,mild
+125,"maybe after 9:00? if not, the neighbour at 12 can take it",09:00,17:00,mild
+126,"I hope after 2 pm is possible, it would be better for me.",14:00,17:00,mild
+127,"Later than 10 am if it's possible, otherwise no worries.",10:00,17:00,mild
+128,"after 3 pm pls if you can, not a must though",15:00,17:00,mild
+129,"If possible before 9 am, but any time is fine really.",08:00,09:00,mild
+130,"Ideally until 12 pm, if it works with your route.",08:00,12:00,mild
+131,"before 10 would be great, otherwise just ring the bell, someone is usually there",08:00,10:00,mild
+132,"Please try before 10 if you can, I'd like to start the work today.",08:00,10:00,mild
+133,maybe by 9? not a big deal if not,08:00,09:00,mild
+134,"I hope you can make it before 2, would be nice to have the paint early.",08:00,14:00,mild
+135,"I'd ask for before 9 am if possible, it would be better for me.",08:00,09:00,mild
+136,"before 11:00 if it's possible, if not, whenever",08:00,11:00,mild
+137,"If possible in the morning, but not a must.",08:00,12:00,mild
+138,"Ideally the morning, if it works for you.",08:00,12:00,mild
+139,"morning would be nice, otherwise ok too",08:00,12:00,mild
+140,"Please try in the morning if you can, I'd like to finish the fence today.",08:00,12:00,mild
+141,"If possible in the afternoon, but any time is ok.",13:00,17:00,mild
+142,"Ideally the afternoon, if it works with your route.",13:00,17:00,mild
+143,"afternoon would be nice, if not no problem",13:00,17:00,mild
+144,"Maybe in the afternoon? I hope that's ok, not a must.",13:00,17:00,mild
+145,"Around noon if possible, but it's fine otherwise.",11:00,14:00,mild
+146,"Ideally at lunchtime, if it works for you.",11:00,14:00,mild
+147,"midday would be nice, if you can",11:00,14:00,mild
+148,"If possible late in the afternoon, but no drama.",15:00,17:00,mild
+149,"Ideally towards the end of the day, if it works.",15:00,17:00,mild
+150,"late afternoon would be nice, but ok if not",15:00,17:00,mild
+151,"Try to come between 12 and 14 if you can, thanks.",12:00,14:00,mild
+152,"Perhaps after 15:00, if it fits your route.",15:00,17:00,mild
+153,"If you can, before 2 pm. It would be better for me but not essential.",08:00,14:00,mild
+154,"10-12 if possible please, if not leave it at the gate.",10:00,12:00,mild
+155,"Morning if it's possible, I hope it fits.",08:00,12:00,mild
+156,"I'd ask after 2 pm if possible, small child asleep before.",14:00,17:00,mild
+157,"Ideally before 9 am, would be nice, not a must.",08:00,09:00,mild
+158,"afternoon if you can, if not just call",13:00,17:00,mild
+159,"Between 8 and 11 would be nice, I hope it works.",08:00,11:00,mild
+160,"after 11 maybe, if it works for you, otherwise fine",11:00,17:00,mild
+161,"Any time works, I'm home all day.",,,flexible
+162,"Whenever you can, no rush.",,,flexible
+163,"I'm flexible, any slot works for me.",,,flexible
+164,"no preference, whenever suits you",,,flexible
+165,"Time doesn't matter, I work from home.",,,flexible
+166,"Whatever is easier for you, we're retired and always home.",,,flexible
+167,"anytime is fine, just ring the bell",,,flexible
+168,"No problem with the time, someone is always here.",,,flexible
+169,"Come whenever, the gate is open all day.",,,flexible
+170,"I'm home all day, any time please.",,,flexible
+171,"Whenever suits you best, no rush at all.",,,flexible
+172,"any slot, i work from home",,,flexible
+173,"Doesn't matter when, my parents are home all day.",,,flexible
+174,"Flexible on time, just call when you're close.",,,flexible
+175,"No preference at all, the shop is open the whole day.",,,flexible
+176,"whatever suits the driver, we are always here",,,flexible
+177,"Any time, really. I'm on leave this week.",,,flexible
+178,"no rush, whenever you get to us",,,flexible
+179,"I'm flexible, the whole day is fine.",,,flexible
+180,"Anytime, the site foreman is there from morning to evening.",,,flexible
+181,"Any time works, please just call 10 minutes before.",,,flexible
+182,"Whenever, no preference, home all day with the baby.",,,flexible
+183,"time does not matter, leave it in the yard if nobody answers",,,flexible
+184,"No problem, any slot works, we're home.",,,flexible
+185,"Whatever is easier for you, thanks.",,,flexible
+186,"all day home, whenever you can",,,flexible
+187,"I'm always home, any time is fine.",,,flexible
+188,no preference. call before.,,,flexible
+189,"Anytime you like, I work from home and the door is open.",,,flexible
+190,"Flexible, no rush, thank you.",,,flexible
+191,"whenever suits your route, we are here the whole day",,,flexible
+192,"Any time, my mother is home all day, she will sign.",,,flexible
+193,"no rush, any slot, thanks a lot",,,flexible
+194,"Doesn't matter when, please leave it at the reception.",,,flexible
+195,"Whenever you can, I'm retired.",,,flexible
+196,"any time is good, we have a shop downstairs open all day",,,flexible
+197,"I'm home all day, whatever suits the driver.",,,flexible
+198,"No preference, please call the number on the order.",,,flexible
+199,"anytime, whenever, no problem at all",,,flexible
+200,"Time doesn't matter to me, I'm on holiday at home.",,,flexible
+201,"Whenever you get here is fine, the yard is open.",,,flexible
+202,"any time works for us, both home",,,flexible
+203,"I'm flexible with the hour, no rush, thanks.",,,flexible
+204,"Whatever is easier for the route, we're always home.",,,flexible
+205,"no preference, home all day, ring twice",,,flexible
+206,"Any slot works, please leave it behind the gate if I'm in the garden.",,,flexible
+207,"Whenever, my wife works from home.",,,flexible
+208,"All day is fine, no rush.",,,flexible
+209,"anytime, i am home, please call",,,flexible
+210,"No preference on time, thank you.",,,flexible
+211,"Please call before, the intercom is broken.",,,none
+212,"The entrance is from the back street, the gate is grey.",,,none
+213,"Second floor, no elevator, thanks.",,,none
+214,"Leave it at the gate if nobody answers, it's safe.",,,none
+215,"the truck can't enter the courtyard, unload at the street",,,none
+216,"Please make sure the bags are not torn, last time two were open.",,,none
+217,"Ring the bell marked Popescu, it's the house with the blue roof.",,,none
+218,"There is parking in front, no problem for a big truck.",,,none
+219,"The dog is friendly, don't worry about him.",,,none
+220,"call my husband, his number is on the order",,,none
+221,Please bring the invoice on paper as well.,,,none
+222,"The road is gravel for the last 200 m, drive slowly.",,,none
+223,"Deliver to the construction site, not to the house address.",,,none
+224,"the street has no number, its the last house before the church",,,none
+225,Please handle the glass panels with care.,,,none
+226,"Use the side entrance, the main one is under renovation.",,,none
+227,"The order is for my mother, she doesn't speak much, just leave it in the hall.",,,none
+228,"There are stairs, two people needed for the boiler.",,,none
+229,"Thanks, everything was fine with the last delivery.",,,none
+230,"pallet can stay on the sidewalk, we will move it",,,none
+231,Please text me when you're 15 minutes away.,,,none
+232,"The gate code is 2580, drive in.",,,none
+233,Watch out for the low branches at the entrance.,,,none
+234,"Block B, apartment 14, the name on the door is different.",,,none
+235,we need the paint in the same colour as the last order please,,,none
+236,"The address in the system is wrong, it's number 27 not 72.",,,none
+237,No comments.,,,none
+238,Please don't leave the cement in the rain.,,,none
+239,"Small street, better to come from the main road side.",,,none
+240,The neighbour will sign if we are not around.,,,none
+241,"Thank you, drive safely.",,,none
+242,"the buzzer doesnt work, knock on the window",,,none
+243,Ask for Mr. Ionescu at the site office.,,,none
+244,"Everything goes in the garage, the door will be open.",,,none
+245,"Please count the tiles with me, last time three were missing.",,,none
+246,"Big yard, the truck can turn around inside.",,,none
+247,Deliver to the warehouse behind the shop.,,,none
+248,"the house is the one with the green fence, no number",,,none
+249,"Please bring a trolley, the boxes are heavy.",,,none
+250,"My phone might be off, ring the bell twice.",,,none

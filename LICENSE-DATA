@@ -1,0 +1,22 @@
+Dataset license — data/source, data/corpus, data/lexicon, data/instances, data/results/report
+
+Copyright 2026 Cezar-Marian Papară, Lidia-Monica Antal and Valer Nimineț.
+
+The message bank and corpus, the urgency lexicon, the routing instances and the stored results of
+the paper "Lexicon-Guided Route Refinement for Last-Mile Delivery Under Soft Temporal Preferences"
+(BRAIN. Broad Research in Artificial Intelligence and Neuroscience, 2026) are licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+You are free to share and adapt the material for non-commercial purposes, provided that you give
+appropriate credit (cite the paper referenced in CITATION.cff), indicate whether changes were made,
+and do not use the material for commercial purposes.
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+The delivery days in data/source are the anonymised dataset published with the compact-routing
+repository (Papară & Crișan, 2026, https://github.com/cezarpapara/compact-routing, CC BY-NC 4.0),
+collected with the approval of the management of S.C. DEDEMAN S.R.L. under GDPR and
+business-confidentiality requirements: no customer identifiers, no addresses (coordinates rounded to a
+delivery area), no calendar dates. The customer messages are synthetic: they were written by the
+authors and no real customer text is included.

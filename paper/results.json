@@ -1,0 +1,2045 @@
+{
+ "lexicon": {
+  "extractor": "lexicon",
+  "messages": 250,
+  "reference": "annotation",
+  "precision": 0.994,
+  "recall": 0.994,
+  "f1": 0.994,
+  "boundary_mae_min": 10.4,
+  "spearman": 0.962,
+  "band_accuracy": 0.944,
+  "confusion": {
+   "flexible": {
+    "flexible": 90,
+    "mild": 0,
+    "strong": 0,
+    "binding": 0
+   },
+   "mild": {
+    "flexible": 12,
+    "mild": 39,
+    "strong": 0,
+    "binding": 0
+   },
+   "strong": {
+    "flexible": 1,
+    "mild": 0,
+    "strong": 58,
+    "binding": 0
+   },
+   "binding": {
+    "flexible": 1,
+    "mild": 0,
+    "strong": 0,
+    "binding": 49
+   }
+  },
+  "bandAccuracyPct": 94.4
+ },
+ "llm": {
+  "extractor": "llm",
+  "messages": 250,
+  "reference": "annotation",
+  "precision": 1.0,
+  "recall": 0.994,
+  "f1": 0.997,
+  "boundary_mae_min": 0.0,
+  "spearman": 0.979,
+  "band_accuracy": 0.928,
+  "confusion": {
+   "flexible": {
+    "flexible": 90,
+    "mild": 0,
+    "strong": 0,
+    "binding": 0
+   },
+   "mild": {
+    "flexible": 1,
+    "mild": 45,
+    "strong": 5,
+    "binding": 0
+   },
+   "strong": {
+    "flexible": 0,
+    "mild": 3,
+    "strong": 47,
+    "binding": 9
+   },
+   "binding": {
+    "flexible": 0,
+    "mild": 0,
+    "strong": 0,
+    "binding": 50
+   }
+  }
+ },
+ "real": {
+  "instances": 18,
+  "meanStops": 7.4,
+  "configs": [
+   {
+    "solver": "dispatcher",
+    "label": "Dispatcher",
+    "n": 18,
+    "distance": 110.1,
+    "duration": 4.09,
+    "waiting": 0.0,
+    "monetary": 865.9,
+    "penalty": 0.0,
+    "composite": 865.9,
+    "satisfaction": 100.0,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dMonetary": 0.0,
+    "dComposite": 0.0,
+    "days": 1
+   },
+   {
+    "solver": "nearest",
+    "label": "Nearest neighbour",
+    "n": 18,
+    "distance": 109.0,
+    "duration": 5.69,
+    "waiting": 1.61,
+    "monetary": 1065.2,
+    "penalty": 1.28,
+    "composite": 1227.1,
+    "satisfaction": 64.6,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dMonetary": 13.3,
+    "dComposite": 26.2,
+    "days": 3
+   },
+   {
+    "solver": "concorde",
+    "label": "Concorde",
+    "n": 18,
+    "distance": 99.5,
+    "duration": 5.58,
+    "waiting": 1.58,
+    "monetary": 1021.6,
+    "penalty": 1.22,
+    "composite": 1175.5,
+    "satisfaction": 73.1,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dMonetary": 9.4,
+    "dComposite": 21.3,
+    "days": 2
+   },
+   {
+    "solver": "ortools",
+    "label": "OR-Tools (windows)",
+    "n": 18,
+    "distance": 100.2,
+    "duration": 3.98,
+    "waiting": 0.0,
+    "monetary": 821.7,
+    "penalty": 0.74,
+    "composite": 914.9,
+    "satisfaction": 73.3,
+    "bindingMissed": 0,
+    "runtime": 30.01,
+    "dMonetary": -4.9,
+    "dComposite": 3.2,
+    "days": 1
+   },
+   {
+    "solver": "adaptive",
+    "label": "Adaptive heuristic (2025)",
+    "n": 18,
+    "distance": 118.4,
+    "duration": 4.72,
+    "waiting": 0.45,
+    "monetary": 972.0,
+    "penalty": 1.2,
+    "composite": 1123.7,
+    "satisfaction": 65.7,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dMonetary": 6.3,
+    "dComposite": 18.6,
+    "days": 2
+   },
+   {
+    "solver": "guided",
+    "label": "Proposed",
+    "n": 18,
+    "distance": 102.5,
+    "duration": 4.02,
+    "waiting": 0.0,
+    "monetary": 833.7,
+    "penalty": 0.08,
+    "composite": 843.9,
+    "satisfaction": 86.3,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dMonetary": -4.2,
+    "dComposite": -2.1,
+    "days": 1
+   }
+  ],
+  "bands": [
+   {
+    "solver": "dispatcher",
+    "label": "Dispatcher",
+    "flexible": {
+     "stated": 0,
+     "met": 0,
+     "pct": null
+    },
+    "mild": {
+     "stated": 30,
+     "met": 30,
+     "pct": 100.0
+    },
+    "strong": {
+     "stated": 33,
+     "met": 33,
+     "pct": 100.0
+    },
+    "binding": {
+     "stated": 29,
+     "met": 29,
+     "pct": 100.0
+    }
+   },
+   {
+    "solver": "nearest",
+    "label": "Nearest neighbour",
+    "flexible": {
+     "stated": 0,
+     "met": 0,
+     "pct": null
+    },
+    "mild": {
+     "stated": 30,
+     "met": 8,
+     "pct": 26.7
+    },
+    "strong": {
+     "stated": 33,
+     "met": 18,
+     "pct": 54.5
+    },
+    "binding": {
+     "stated": 29,
+     "met": 29,
+     "pct": 100.0
+    }
+   },
+   {
+    "solver": "concorde",
+    "label": "Concorde",
+    "flexible": {
+     "stated": 0,
+     "met": 0,
+     "pct": null
+    },
+    "mild": {
+     "stated": 30,
+     "met": 15,
+     "pct": 50.0
+    },
+    "strong": {
+     "stated": 33,
+     "met": 20,
+     "pct": 60.6
+    },
+    "binding": {
+     "stated": 29,
+     "met": 29,
+     "pct": 100.0
+    }
+   },
+   {
+    "solver": "ortools",
+    "label": "OR-Tools (windows)",
+    "flexible": {
+     "stated": 0,
+     "met": 0,
+     "pct": null
+    },
+    "mild": {
+     "stated": 30,
+     "met": 16,
+     "pct": 53.3
+    },
+    "strong": {
+     "stated": 33,
+     "met": 22,
+     "pct": 66.7
+    },
+    "binding": {
+     "stated": 29,
+     "met": 29,
+     "pct": 100.0
+    }
+   },
+   {
+    "solver": "adaptive",
+    "label": "Adaptive heuristic (2025)",
+    "flexible": {
+     "stated": 0,
+     "met": 0,
+     "pct": null
+    },
+    "mild": {
+     "stated": 30,
+     "met": 9,
+     "pct": 30.0
+    },
+    "strong": {
+     "stated": 33,
+     "met": 18,
+     "pct": 54.5
+    },
+    "binding": {
+     "stated": 29,
+     "met": 29,
+     "pct": 100.0
+    }
+   },
+   {
+    "solver": "guided",
+    "label": "Proposed",
+    "flexible": {
+     "stated": 0,
+     "met": 0,
+     "pct": null
+    },
+    "mild": {
+     "stated": 30,
+     "met": 26,
+     "pct": 86.7
+    },
+    "strong": {
+     "stated": 33,
+     "met": 26,
+     "pct": 78.8
+    },
+    "binding": {
+     "stated": 29,
+     "met": 29,
+     "pct": 100.0
+    }
+   }
+  ],
+  "perInstance": [
+   {
+    "instance": "DAY_1_TRUCK_1_TRIP_1",
+    "stops": 5,
+    "dispatcher": {
+     "composite": 606.08,
+     "monetary": 606.08,
+     "distance": 74.78,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 715.36,
+     "monetary": 594.11,
+     "distance": 72.96,
+     "satisfaction": 50.0,
+     "penalty": 0.96
+    },
+    "concorde": {
+     "composite": 704.34,
+     "monetary": 583.09,
+     "distance": 67.91,
+     "satisfaction": 50.0,
+     "penalty": 0.96
+    },
+    "ortools": {
+     "composite": 704.34,
+     "monetary": 583.09,
+     "distance": 67.91,
+     "satisfaction": 50.0,
+     "penalty": 0.96
+    },
+    "adaptive": {
+     "composite": 715.36,
+     "monetary": 594.11,
+     "distance": 72.96,
+     "satisfaction": 50.0,
+     "penalty": 0.96
+    },
+    "guided": {
+     "composite": 585.93,
+     "monetary": 585.93,
+     "distance": 68.31,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_1_TRUCK_1_TRIP_2",
+    "stops": 5,
+    "dispatcher": {
+     "composite": 267.96,
+     "monetary": 267.96,
+     "distance": 16.38,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 267.93,
+     "monetary": 267.93,
+     "distance": 16.38,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "concorde": {
+     "composite": 264.76,
+     "monetary": 264.76,
+     "distance": 15.93,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "ortools": {
+     "composite": 264.76,
+     "monetary": 264.76,
+     "distance": 15.93,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "adaptive": {
+     "composite": 267.93,
+     "monetary": 267.93,
+     "distance": 16.38,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "guided": {
+     "composite": 264.76,
+     "monetary": 264.76,
+     "distance": 15.93,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_1_TRUCK_2_TRIP_1",
+    "stops": 4,
+    "dispatcher": {
+     "composite": 311.54,
+     "monetary": 311.54,
+     "distance": 30.78,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 320.18,
+     "monetary": 320.18,
+     "distance": 29.63,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "concorde": {
+     "composite": 362.46,
+     "monetary": 362.46,
+     "distance": 29.63,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "ortools": {
+     "composite": 311.54,
+     "monetary": 311.54,
+     "distance": 30.78,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "adaptive": {
+     "composite": 320.18,
+     "monetary": 320.18,
+     "distance": 29.63,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "guided": {
+     "composite": 311.54,
+     "monetary": 311.54,
+     "distance": 30.78,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_1_TRUCK_4_TRIP_1",
+    "stops": 13,
+    "dispatcher": {
+     "composite": 1481.47,
+     "monetary": 1481.47,
+     "distance": 189.22,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 2324.35,
+     "monetary": 1908.08,
+     "distance": 197.74,
+     "satisfaction": 44.4,
+     "penalty": 3.29
+    },
+    "concorde": {
+     "composite": 2561.33,
+     "monetary": 2304.55,
+     "distance": 176.23,
+     "satisfaction": 66.7,
+     "penalty": 2.03
+    },
+    "ortools": {
+     "composite": 1467.52,
+     "monetary": 1464.6,
+     "distance": 185.11,
+     "satisfaction": 88.9,
+     "penalty": 0.02
+    },
+    "adaptive": {
+     "composite": 2324.35,
+     "monetary": 1908.08,
+     "distance": 197.74,
+     "satisfaction": 44.4,
+     "penalty": 3.29
+    },
+    "guided": {
+     "composite": 1467.52,
+     "monetary": 1464.6,
+     "distance": 185.11,
+     "satisfaction": 88.9,
+     "penalty": 0.02
+    }
+   },
+   {
+    "instance": "DAY_2_TRUCK_1_TRIP_1",
+    "stops": 4,
+    "dispatcher": {
+     "composite": 512.43,
+     "monetary": 512.43,
+     "distance": 70.35,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 512.43,
+     "monetary": 512.43,
+     "distance": 70.35,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "concorde": {
+     "composite": 509.36,
+     "monetary": 509.36,
+     "distance": 65.53,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "ortools": {
+     "composite": 509.36,
+     "monetary": 509.36,
+     "distance": 65.52,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "adaptive": {
+     "composite": 512.43,
+     "monetary": 512.43,
+     "distance": 70.35,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "guided": {
+     "composite": 509.36,
+     "monetary": 509.36,
+     "distance": 65.52,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_2_TRUCK_4_TRIP_1",
+    "stops": 12,
+    "dispatcher": {
+     "composite": 1421.08,
+     "monetary": 1421.08,
+     "distance": 191.04,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 2293.26,
+     "monetary": 1926.52,
+     "distance": 185.91,
+     "satisfaction": 57.1,
+     "penalty": 2.9
+    },
+    "concorde": {
+     "composite": 1462.58,
+     "monetary": 1376.84,
+     "distance": 173.99,
+     "satisfaction": 71.4,
+     "penalty": 0.68
+    },
+    "ortools": {
+     "composite": 1652.8,
+     "monetary": 1376.8,
+     "distance": 173.99,
+     "satisfaction": 57.1,
+     "penalty": 2.18
+    },
+    "adaptive": {
+     "composite": 2563.18,
+     "monetary": 2179.0,
+     "distance": 287.91,
+     "satisfaction": 42.9,
+     "penalty": 3.04
+    },
+    "guided": {
+     "composite": 1376.88,
+     "monetary": 1376.88,
+     "distance": 173.99,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_3_TRUCK_1_TRIP_1",
+    "stops": 5,
+    "dispatcher": {
+     "composite": 608.42,
+     "monetary": 608.42,
+     "distance": 75.09,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 637.23,
+     "monetary": 611.52,
+     "distance": 75.66,
+     "satisfaction": 50.0,
+     "penalty": 0.2
+    },
+    "concorde": {
+     "composite": 614.68,
+     "monetary": 588.97,
+     "distance": 68.73,
+     "satisfaction": 50.0,
+     "penalty": 0.2
+    },
+    "ortools": {
+     "composite": 614.68,
+     "monetary": 588.97,
+     "distance": 68.73,
+     "satisfaction": 50.0,
+     "penalty": 0.2
+    },
+    "adaptive": {
+     "composite": 637.23,
+     "monetary": 611.52,
+     "distance": 75.66,
+     "satisfaction": 50.0,
+     "penalty": 0.2
+    },
+    "guided": {
+     "composite": 597.27,
+     "monetary": 597.27,
+     "distance": 70.01,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_3_TRUCK_1_TRIP_2",
+    "stops": 5,
+    "dispatcher": {
+     "composite": 310.32,
+     "monetary": 310.32,
+     "distance": 23.15,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 325.87,
+     "monetary": 268.2,
+     "distance": 16.64,
+     "satisfaction": 75.0,
+     "penalty": 0.46
+    },
+    "concorde": {
+     "composite": 362.76,
+     "monetary": 305.09,
+     "distance": 16.64,
+     "satisfaction": 75.0,
+     "penalty": 0.46
+    },
+    "ortools": {
+     "composite": 325.87,
+     "monetary": 268.2,
+     "distance": 16.64,
+     "satisfaction": 75.0,
+     "penalty": 0.46
+    },
+    "adaptive": {
+     "composite": 325.87,
+     "monetary": 268.2,
+     "distance": 16.64,
+     "satisfaction": 75.0,
+     "penalty": 0.46
+    },
+    "guided": {
+     "composite": 325.87,
+     "monetary": 268.2,
+     "distance": 16.64,
+     "satisfaction": 75.0,
+     "penalty": 0.46
+    }
+   },
+   {
+    "instance": "DAY_3_TRUCK_2_TRIP_1",
+    "stops": 6,
+    "dispatcher": {
+     "composite": 1284.64,
+     "monetary": 1284.64,
+     "distance": 192.37,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 1480.83,
+     "monetary": 1284.64,
+     "distance": 192.37,
+     "satisfaction": 16.7,
+     "penalty": 1.55
+    },
+    "concorde": {
+     "composite": 1267.37,
+     "monetary": 1242.51,
+     "distance": 185.29,
+     "satisfaction": 66.7,
+     "penalty": 0.2
+    },
+    "ortools": {
+     "composite": 1420.92,
+     "monetary": 1242.51,
+     "distance": 185.29,
+     "satisfaction": 33.3,
+     "penalty": 1.41
+    },
+    "adaptive": {
+     "composite": 1480.83,
+     "monetary": 1284.64,
+     "distance": 192.37,
+     "satisfaction": 16.7,
+     "penalty": 1.55
+    },
+    "guided": {
+     "composite": 1267.37,
+     "monetary": 1242.51,
+     "distance": 185.29,
+     "satisfaction": 66.7,
+     "penalty": 0.2
+    }
+   },
+   {
+    "instance": "DAY_3_TRUCK_3_TRIP_1",
+    "stops": 6,
+    "dispatcher": {
+     "composite": 525.72,
+     "monetary": 525.72,
+     "distance": 56.76,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 513.01,
+     "monetary": 488.46,
+     "distance": 47.37,
+     "satisfaction": 80.0,
+     "penalty": 0.19
+    },
+    "concorde": {
+     "composite": 500.55,
+     "monetary": 475.99,
+     "distance": 45.66,
+     "satisfaction": 80.0,
+     "penalty": 0.19
+    },
+    "ortools": {
+     "composite": 491.58,
+     "monetary": 467.03,
+     "distance": 45.98,
+     "satisfaction": 80.0,
+     "penalty": 0.19
+    },
+    "adaptive": {
+     "composite": 513.01,
+     "monetary": 488.46,
+     "distance": 47.37,
+     "satisfaction": 80.0,
+     "penalty": 0.19
+    },
+    "guided": {
+     "composite": 491.58,
+     "monetary": 467.03,
+     "distance": 45.98,
+     "satisfaction": 80.0,
+     "penalty": 0.19
+    }
+   },
+   {
+    "instance": "DAY_3_TRUCK_4_TRIP_1",
+    "stops": 15,
+    "dispatcher": {
+     "composite": 1672.11,
+     "monetary": 1672.11,
+     "distance": 212.16,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 3048.96,
+     "monetary": 2457.27,
+     "distance": 228.76,
+     "satisfaction": 33.3,
+     "penalty": 4.68
+    },
+    "concorde": {
+     "composite": 3159.82,
+     "monetary": 2278.62,
+     "distance": 190.6,
+     "satisfaction": 33.3,
+     "penalty": 6.96
+    },
+    "ortools": {
+     "composite": 1563.32,
+     "monetary": 1560.65,
+     "distance": 190.6,
+     "satisfaction": 88.9,
+     "penalty": 0.02
+    },
+    "adaptive": {
+     "composite": 2137.58,
+     "monetary": 1827.46,
+     "distance": 240.59,
+     "satisfaction": 55.6,
+     "penalty": 2.45
+    },
+    "guided": {
+     "composite": 1563.32,
+     "monetary": 1560.65,
+     "distance": 190.6,
+     "satisfaction": 88.9,
+     "penalty": 0.02
+    }
+   },
+   {
+    "instance": "DAY_4_TRUCK_1_TRIP_1",
+    "stops": 4,
+    "dispatcher": {
+     "composite": 571.52,
+     "monetary": 571.52,
+     "distance": 81.25,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 612.58,
+     "monetary": 571.52,
+     "distance": 81.25,
+     "satisfaction": 75.0,
+     "penalty": 0.32
+    },
+    "concorde": {
+     "composite": 564.46,
+     "monetary": 564.46,
+     "distance": 74.64,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "ortools": {
+     "composite": 564.46,
+     "monetary": 564.46,
+     "distance": 74.64,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "adaptive": {
+     "composite": 612.58,
+     "monetary": 571.52,
+     "distance": 81.25,
+     "satisfaction": 75.0,
+     "penalty": 0.32
+    },
+    "guided": {
+     "composite": 564.46,
+     "monetary": 564.46,
+     "distance": 74.64,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_4_TRUCK_2_TRIP_1",
+    "stops": 5,
+    "dispatcher": {
+     "composite": 768.44,
+     "monetary": 768.44,
+     "distance": 109.05,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 980.02,
+     "monetary": 955.1,
+     "distance": 110.18,
+     "satisfaction": 75.0,
+     "penalty": 0.2
+    },
+    "concorde": {
+     "composite": 815.2,
+     "monetary": 763.53,
+     "distance": 105.36,
+     "satisfaction": 75.0,
+     "penalty": 0.41
+    },
+    "ortools": {
+     "composite": 752.87,
+     "monetary": 752.13,
+     "distance": 105.87,
+     "satisfaction": 75.0,
+     "penalty": 0.01
+    },
+    "adaptive": {
+     "composite": 827.67,
+     "monetary": 827.67,
+     "distance": 108.09,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "guided": {
+     "composite": 752.87,
+     "monetary": 752.13,
+     "distance": 105.87,
+     "satisfaction": 75.0,
+     "penalty": 0.01
+    }
+   },
+   {
+    "instance": "DAY_4_TRUCK_2_TRIP_2",
+    "stops": 5,
+    "dispatcher": {
+     "composite": 406.43,
+     "monetary": 406.43,
+     "distance": 40.54,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 386.42,
+     "monetary": 341.44,
+     "distance": 30.27,
+     "satisfaction": 0.0,
+     "penalty": 0.36
+    },
+    "concorde": {
+     "composite": 343.71,
+     "monetary": 338.47,
+     "distance": 27.97,
+     "satisfaction": 50.0,
+     "penalty": 0.04
+    },
+    "ortools": {
+     "composite": 383.46,
+     "monetary": 338.47,
+     "distance": 27.97,
+     "satisfaction": 0.0,
+     "penalty": 0.36
+    },
+    "adaptive": {
+     "composite": 386.42,
+     "monetary": 341.44,
+     "distance": 30.27,
+     "satisfaction": 0.0,
+     "penalty": 0.36
+    },
+    "guided": {
+     "composite": 383.46,
+     "monetary": 338.47,
+     "distance": 27.97,
+     "satisfaction": 0.0,
+     "penalty": 0.36
+    }
+   },
+   {
+    "instance": "DAY_4_TRUCK_4_TRIP_1",
+    "stops": 12,
+    "dispatcher": {
+     "composite": 1488.21,
+     "monetary": 1488.21,
+     "distance": 198.35,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 1417.7,
+     "monetary": 1392.43,
+     "distance": 176.21,
+     "satisfaction": 87.5,
+     "penalty": 0.2
+    },
+    "concorde": {
+     "composite": 2275.37,
+     "monetary": 1487.66,
+     "distance": 174.51,
+     "satisfaction": 37.5,
+     "penalty": 6.23
+    },
+    "ortools": {
+     "composite": 1409.85,
+     "monetary": 1384.58,
+     "distance": 174.51,
+     "satisfaction": 87.5,
+     "penalty": 0.2
+    },
+    "adaptive": {
+     "composite": 1417.7,
+     "monetary": 1392.43,
+     "distance": 176.21,
+     "satisfaction": 87.5,
+     "penalty": 0.2
+    },
+    "guided": {
+     "composite": 1409.85,
+     "monetary": 1384.58,
+     "distance": 174.51,
+     "satisfaction": 87.5,
+     "penalty": 0.2
+    }
+   },
+   {
+    "instance": "DAY_5_TRUCK_1_TRIP_1",
+    "stops": 4,
+    "dispatcher": {
+     "composite": 282.56,
+     "monetary": 282.56,
+     "distance": 24.7,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 283.43,
+     "monetary": 283.43,
+     "distance": 24.84,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "concorde": {
+     "composite": 282.56,
+     "monetary": 282.56,
+     "distance": 24.7,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "ortools": {
+     "composite": 282.56,
+     "monetary": 282.56,
+     "distance": 24.7,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "adaptive": {
+     "composite": 283.43,
+     "monetary": 283.43,
+     "distance": 24.84,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "guided": {
+     "composite": 282.56,
+     "monetary": 282.56,
+     "distance": 24.7,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_5_TRUCK_2_TRIP_1",
+    "stops": 9,
+    "dispatcher": {
+     "composite": 1308.55,
+     "monetary": 1308.55,
+     "distance": 173.63,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 3247.28,
+     "monetary": 3148.62,
+     "distance": 169.98,
+     "satisfaction": 85.7,
+     "penalty": 0.78
+    },
+    "concorde": {
+     "composite": 2227.74,
+     "monetary": 2101.52,
+     "distance": 164.4,
+     "satisfaction": 85.7,
+     "penalty": 1.0
+    },
+    "ortools": {
+     "composite": 1260.98,
+     "monetary": 1260.98,
+     "distance": 164.92,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "adaptive": {
+     "composite": 2179.02,
+     "monetary": 1976.59,
+     "distance": 227.36,
+     "satisfaction": 71.4,
+     "penalty": 1.6
+    },
+    "guided": {
+     "composite": 1260.98,
+     "monetary": 1260.98,
+     "distance": 164.92,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    }
+   },
+   {
+    "instance": "DAY_5_TRUCK_4_TRIP_1",
+    "stops": 15,
+    "dispatcher": {
+     "composite": 1758.59,
+     "monetary": 1758.59,
+     "distance": 221.96,
+     "satisfaction": 100.0,
+     "penalty": 0.0
+    },
+    "nearest": {
+     "composite": 2721.69,
+     "monetary": 1840.82,
+     "distance": 235.28,
+     "satisfaction": 33.3,
+     "penalty": 6.96
+    },
+    "concorde": {
+     "composite": 2880.05,
+     "monetary": 2558.45,
+     "distance": 183.81,
+     "satisfaction": 75.0,
+     "penalty": 2.54
+    },
+    "ortools": {
+     "composite": 2488.05,
+     "monetary": 1570.4,
+     "distance": 183.81,
+     "satisfaction": 33.3,
+     "penalty": 7.25
+    },
+    "adaptive": {
+     "composite": 2721.69,
+     "monetary": 1840.82,
+     "distance": 235.28,
+     "satisfaction": 33.3,
+     "penalty": 6.96
+    },
+    "guided": {
+     "composite": 1774.87,
+     "monetary": 1774.35,
+     "distance": 224.95,
+     "satisfaction": 91.7,
+     "penalty": 0.0
+    }
+   }
+  ],
+  "guidedVsOrtoolsPct": 4.2,
+  "guidedVsOrtoolsSigned": -4.2,
+  "guidedVsDispatcherPct": 2.1,
+  "guidedSatisfaction": 86.3,
+  "ortoolsSatisfaction": 73.3
+ },
+ "synth": {
+  "instances": 18,
+  "bySize": [
+   {
+    "stops": 25,
+    "instances": 3,
+    "configs": [
+     {
+      "solver": "nearest",
+      "label": "Nearest neighbour",
+      "n": 3,
+      "distance": 278.9,
+      "duration": 25.43,
+      "waiting": 12.98,
+      "monetary": 4101.2,
+      "penalty": 3.96,
+      "composite": 4601.9,
+      "satisfaction": 61.1,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 71.5,
+      "dComposite": 45.5,
+      "days": 4
+     },
+     {
+      "solver": "concorde",
+      "label": "Concorde",
+      "n": 3,
+      "distance": 223.6,
+      "duration": 19.78,
+      "waiting": 8.56,
+      "monetary": 3211.2,
+      "penalty": 4.92,
+      "composite": 3833.7,
+      "satisfaction": 64.3,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 35.4,
+      "dComposite": 21.9,
+      "days": 3
+     },
+     {
+      "solver": "ortools",
+      "label": "OR-Tools (windows)",
+      "n": 3,
+      "distance": 249.1,
+      "duration": 12.42,
+      "waiting": 0.63,
+      "monetary": 2361.3,
+      "penalty": 6.38,
+      "composite": 3168.6,
+      "satisfaction": 58.9,
+      "bindingMissed": 0,
+      "runtime": 30.02,
+      "dMonetary": 0.0,
+      "dComposite": 0.0,
+      "days": 2
+     },
+     {
+      "solver": "adaptive",
+      "label": "Adaptive heuristic (2025)",
+      "n": 3,
+      "distance": 323.3,
+      "duration": 18.5,
+      "waiting": 5.07,
+      "monetary": 3365.5,
+      "penalty": 8.92,
+      "composite": 4494.5,
+      "satisfaction": 50.6,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 43.6,
+      "dComposite": 42.7,
+      "days": 3
+     },
+     {
+      "solver": "guided",
+      "label": "Proposed",
+      "n": 3,
+      "distance": 279.0,
+      "duration": 13.04,
+      "waiting": 0.59,
+      "monetary": 2535.0,
+      "penalty": 1.19,
+      "composite": 2685.0,
+      "satisfaction": 80.3,
+      "bindingMissed": 0,
+      "runtime": 0.01,
+      "dMonetary": 8.2,
+      "dComposite": -15.4,
+      "days": 2
+     }
+    ]
+   },
+   {
+    "stops": 50,
+    "instances": 3,
+    "configs": [
+     {
+      "solver": "nearest",
+      "label": "Nearest neighbour",
+      "n": 3,
+      "distance": 411.7,
+      "duration": 34.66,
+      "waiting": 13.01,
+      "monetary": 5689.9,
+      "penalty": 13.35,
+      "composite": 7379.4,
+      "satisfaction": 65.3,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 56.8,
+      "dComposite": 38.2,
+      "days": 5
+     },
+     {
+      "solver": "concorde",
+      "label": "Concorde",
+      "n": 3,
+      "distance": 324.3,
+      "duration": 38.49,
+      "waiting": 18.78,
+      "monetary": 5897.3,
+      "penalty": 10.46,
+      "composite": 7220.6,
+      "satisfaction": 59.9,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 62.5,
+      "dComposite": 35.7,
+      "days": 5
+     },
+     {
+      "solver": "ortools",
+      "label": "OR-Tools (windows)",
+      "n": 3,
+      "distance": 344.6,
+      "duration": 20.16,
+      "waiting": 0.0,
+      "monetary": 3642.9,
+      "penalty": 13.44,
+      "composite": 5343.4,
+      "satisfaction": 59.3,
+      "bindingMissed": 0,
+      "runtime": 30.03,
+      "dMonetary": 0.0,
+      "dComposite": 0.0,
+      "days": 3
+     },
+     {
+      "solver": "adaptive",
+      "label": "Adaptive heuristic (2025)",
+      "n": 3,
+      "distance": 492.9,
+      "duration": 24.61,
+      "waiting": 1.16,
+      "monetary": 4676.8,
+      "penalty": 14.35,
+      "composite": 6492.4,
+      "satisfaction": 54.0,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 28.2,
+      "dComposite": 21.9,
+      "days": 3
+     },
+     {
+      "solver": "guided",
+      "label": "Proposed",
+      "n": 3,
+      "distance": 362.3,
+      "duration": 20.55,
+      "waiting": 0.0,
+      "monetary": 3748.4,
+      "penalty": 7.74,
+      "composite": 4727.7,
+      "satisfaction": 72.7,
+      "bindingMissed": 0,
+      "runtime": 0.05,
+      "dMonetary": 3.0,
+      "dComposite": -10.8,
+      "days": 3
+     }
+    ]
+   },
+   {
+    "stops": 100,
+    "instances": 3,
+    "configs": [
+     {
+      "solver": "nearest",
+      "label": "Nearest neighbour",
+      "n": 3,
+      "distance": 528.3,
+      "duration": 73.92,
+      "waiting": 37.19,
+      "monetary": 11027.5,
+      "penalty": 24.51,
+      "composite": 14129.2,
+      "satisfaction": 63.4,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 74.6,
+      "dComposite": 53.6,
+      "days": 11
+     },
+     {
+      "solver": "concorde",
+      "label": "Concorde",
+      "n": 3,
+      "distance": 409.7,
+      "duration": 71.99,
+      "waiting": 37.89,
+      "monetary": 10407.3,
+      "penalty": 28.18,
+      "composite": 13972.8,
+      "satisfaction": 57.8,
+      "bindingMissed": 0,
+      "runtime": 0.0,
+      "dMonetary": 64.3,
+      "dComposite": 52.1,
+      "days": 10
+     },
+     {
+      "solver": "ortools",
+      "label": "OR-Tools (windows)",
+      "n": 3,
+      "distance": 486.1,
+      "duration": 37.53,
+      "waiting": 1.73,
+      "monetary": 6289.9,
+      "penalty": 23.09,
+      "composite": 9211.0,
+      "satisfaction": 60.9,
+      "bindingMissed": 2,
+      "runtime": 30.11,
+      "dMonetary": 0.0,
+      "dComposite": 0.0,
+      "days": 5
+     },
+     {
+      "solver": "adaptive",
+      "label": "Adaptive heuristic (2025)",
+      "n": 3,
+      "distance": 657.2,
+      "duration": 45.91,
+      "waiting": 6.31,
+      "monetary": 7892.4,
+      "penalty": 23.71,
+      "composite": 10891.8,
+      "satisfaction": 62.8,
+      "bindingMissed": 1,
+      "runtime": 0.0,
+      "dMonetary": 25.2,
+      "dComposite": 18.4,
+      "days": 6
+     },
+     {
+      "solver": "guided",
+      "label": "Proposed",
+      "n": 3,
+      "distance": 596.2,
+      "duration": 38.8,
+      "waiting": 0.55,
+      "monetary": 6798.7,
+      "penalty": 6.16,
+      "composite": 7578.6,
+      "satisfaction": 78.8,
+      "bindingMissed": 2,
+      "runtime": 1.31,
+      "dMonetary": 8.2,
+      "dComposite": -17.7,
+      "days": 5
+     }
+    ]
+   },
+   {
+    "stops": 250,
+    "instances": 3,
+    "configs": [
+     {
+      "solver": "nearest",
+      "label": "Nearest neighbour",
+      "n": 3,
+      "distance": 687.9,
+      "duration": 173.41,
+      "waiting": 95.62,
+      "monetary": 24120.4,
+      "penalty": 74.41,
+      "composite": 33533.9,
+      "satisfaction": 56.5,
+      "bindingMissed": 6,
+      "runtime": 0.0,
+      "dMonetary": 68.3,
+      "dComposite": 43.5,
+      "days": 22
+     },
+     {
+      "solver": "concorde",
+      "label": "Concorde",
+      "n": 3,
+      "distance": 547.7,
+      "duration": 173.86,
+      "waiting": 99.19,
+      "monetary": 23732.6,
+      "penalty": 74.34,
+      "composite": 33138.5,
+      "satisfaction": 55.5,
+      "bindingMissed": 5,
+      "runtime": 0.0,
+      "dMonetary": 66.0,
+      "dComposite": 41.6,
+      "days": 22
+     },
+     {
+      "solver": "ortools",
+      "label": "OR-Tools (windows)",
+      "n": 3,
+      "distance": 917.9,
+      "duration": 90.06,
+      "waiting": 7.16,
+      "monetary": 14303.7,
+      "penalty": 71.99,
+      "composite": 23411.3,
+      "satisfaction": 56.2,
+      "bindingMissed": 5,
+      "runtime": 30.41,
+      "dMonetary": 0.0,
+      "dComposite": 0.0,
+      "days": 11
+     },
+     {
+      "solver": "adaptive",
+      "label": "Adaptive heuristic (2025)",
+      "n": 3,
+      "distance": 1007.5,
+      "duration": 93.06,
+      "waiting": 8.17,
+      "monetary": 14967.3,
+      "penalty": 72.57,
+      "composite": 24149.1,
+      "satisfaction": 57.3,
+      "bindingMissed": 5,
+      "runtime": 0.0,
+      "dMonetary": 4.5,
+      "dComposite": 3.3,
+      "days": 12
+     },
+     {
+      "solver": "guided",
+      "label": "Proposed",
+      "n": 3,
+      "distance": 1113.3,
+      "duration": 90.17,
+      "waiting": 2.93,
+      "monetary": 14937.6,
+      "penalty": 23.76,
+      "composite": 17944.4,
+      "satisfaction": 81.0,
+      "bindingMissed": 6,
+      "runtime": 15.56,
+      "dMonetary": 4.5,
+      "dComposite": -23.3,
+      "days": 11
+     }
+    ]
+   },
+   {
+    "stops": 500,
+    "instances": 3,
+    "configs": [
+     {
+      "solver": "nearest",
+      "label": "Nearest neighbour",
+      "n": 3,
+      "distance": 792.3,
+      "duration": 313.76,
+      "waiting": 171.15,
+      "monetary": 42208.6,
+      "penalty": 135.09,
+      "composite": 59300.2,
+      "satisfaction": 59.2,
+      "bindingMissed": 1,
+      "runtime": 0.01,
+      "dMonetary": 76.5,
+      "dComposite": 49.8,
+      "days": 37
+     },
+     {
+      "solver": "concorde",
+      "label": "Concorde",
+      "n": 3,
+      "distance": 634.6,
+      "duration": 314.95,
+      "waiting": 175.85,
+      "monetary": 41858.8,
+      "penalty": 131.33,
+      "composite": 58474.2,
+      "satisfaction": 59.2,
+      "bindingMissed": 2,
+      "runtime": 0.0,
+      "dMonetary": 75.0,
+      "dComposite": 47.6,
+      "days": 37
+     },
+     {
+      "solver": "ortools",
+      "label": "OR-Tools (windows)",
+      "n": 3,
+      "distance": 1194.0,
+      "duration": 159.15,
+      "waiting": 7.61,
+      "monetary": 23920.1,
+      "penalty": 124.11,
+      "composite": 39623.3,
+      "satisfaction": 60.5,
+      "bindingMissed": 4,
+      "runtime": 31.38,
+      "dMonetary": 0.0,
+      "dComposite": 0.0,
+      "days": 19
+     },
+     {
+      "solver": "adaptive",
+      "label": "Adaptive heuristic (2025)",
+      "n": 3,
+      "distance": 1240.6,
+      "duration": 159.15,
+      "waiting": 6.57,
+      "monetary": 24067.7,
+      "penalty": 124.61,
+      "composite": 39832.5,
+      "satisfaction": 60.5,
+      "bindingMissed": 5,
+      "runtime": 0.01,
+      "dMonetary": 0.6,
+      "dComposite": 0.5,
+      "days": 19
+     },
+     {
+      "solver": "guided",
+      "label": "Proposed",
+      "n": 3,
+      "distance": 1331.4,
+      "duration": 157.17,
+      "waiting": 2.59,
+      "monetary": 24105.8,
+      "penalty": 52.86,
+      "composite": 30794.1,
+      "satisfaction": 77.8,
+      "bindingMissed": 5,
+      "runtime": 129.26,
+      "dMonetary": 0.7,
+      "dComposite": -22.2,
+      "days": 19
+     }
+    ]
+   },
+   {
+    "stops": 1000,
+    "instances": 3,
+    "configs": [
+     {
+      "solver": "nearest",
+      "label": "Nearest neighbour",
+      "n": 3,
+      "distance": 966.9,
+      "duration": 613.95,
+      "waiting": 342.46,
+      "monetary": 80742.1,
+      "penalty": 278.13,
+      "composite": 115931.5,
+      "satisfaction": 60.0,
+      "bindingMissed": 11,
+      "runtime": 0.03,
+      "dMonetary": 83.3,
+      "dComposite": 49.1,
+      "days": 74
+     },
+     {
+      "solver": "concorde",
+      "label": "Concorde",
+      "n": 3,
+      "distance": 738.0,
+      "duration": 649.37,
+      "waiting": 382.97,
+      "monetary": 84497.5,
+      "penalty": 284.16,
+      "composite": 120449.4,
+      "satisfaction": 60.4,
+      "bindingMissed": 10,
+      "runtime": 0.0,
+      "dMonetary": 92.0,
+      "dComposite": 54.9,
+      "days": 77
+     },
+     {
+      "solver": "ortools",
+      "label": "OR-Tools (windows)",
+      "n": 3,
+      "distance": 1728.8,
+      "duration": 304.56,
+      "waiting": 16.14,
+      "monetary": 44012.9,
+      "penalty": 266.55,
+      "composite": 77736.4,
+      "satisfaction": 58.6,
+      "bindingMissed": 16,
+      "runtime": 35.08,
+      "dMonetary": 0.0,
+      "dComposite": 0.0,
+      "days": 35
+     },
+     {
+      "solver": "adaptive",
+      "label": "Adaptive heuristic (2025)",
+      "n": 3,
+      "distance": 1752.6,
+      "duration": 304.56,
+      "waiting": 15.61,
+      "monetary": 44088.4,
+      "penalty": 267.58,
+      "composite": 77942.6,
+      "satisfaction": 58.3,
+      "bindingMissed": 19,
+      "runtime": 0.1,
+      "dMonetary": 0.2,
+      "dComposite": 0.3,
+      "days": 35
+     },
+     {
+      "solver": "guided",
+      "label": "Proposed",
+      "n": 3,
+      "distance": 2025.6,
+      "duration": 310.56,
+      "waiting": 15.54,
+      "monetary": 45713.1,
+      "penalty": 127.09,
+      "composite": 61793.2,
+      "satisfaction": 73.1,
+      "bindingMissed": 17,
+      "runtime": 600.58,
+      "dMonetary": 3.8,
+      "dComposite": -20.5,
+      "days": 37
+     }
+    ]
+   }
+  ],
+  "guidedVsOrtoolsPct": 18.3
+ },
+ "ablation": {
+  "instances": 18,
+  "variants": [
+   {
+    "variant": "OR-Tools baseline (no refinement)",
+    "n": 18,
+    "composite": 914.9,
+    "monetary": 821.7,
+    "penalty": 0.74,
+    "satisfaction": 73.3,
+    "bindingMissed": 0,
+    "runtime": 30.01,
+    "dComposite": 5.3
+   },
+   {
+    "variant": "Proposed, full",
+    "n": 18,
+    "composite": 843.9,
+    "monetary": 833.7,
+    "penalty": 0.08,
+    "satisfaction": 86.3,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.0
+   },
+   {
+    "variant": "Start from OR-Tools only",
+    "n": 18,
+    "composite": 855.9,
+    "monetary": 837.1,
+    "penalty": 0.15,
+    "satisfaction": 84.5,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 1.3
+   },
+   {
+    "variant": "Start from the dispatcher's sequence only",
+    "n": 18,
+    "composite": 855.9,
+    "monetary": 848.4,
+    "penalty": 0.06,
+    "satisfaction": 89.4,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 1.2
+   },
+   {
+    "variant": "Start from nearest neighbour only",
+    "n": 18,
+    "composite": 990.2,
+    "monetary": 940.0,
+    "penalty": 0.4,
+    "satisfaction": 83.5,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 10.4
+   },
+   {
+    "variant": "No 2-opt phase",
+    "n": 18,
+    "composite": 850.6,
+    "monetary": 841.8,
+    "penalty": 0.07,
+    "satisfaction": 88.6,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.6
+   },
+   {
+    "variant": "Relocate and 2-opt only (no swap)",
+    "n": 18,
+    "composite": 843.9,
+    "monetary": 833.7,
+    "penalty": 0.08,
+    "satisfaction": 86.3,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.0
+   },
+   {
+    "variant": "Swap and 2-opt only (no relocate)",
+    "n": 18,
+    "composite": 844.4,
+    "monetary": 834.2,
+    "penalty": 0.08,
+    "satisfaction": 86.8,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": -0.0
+   },
+   {
+    "variant": "2-opt only (no preference moves)",
+    "n": 18,
+    "composite": 844.9,
+    "monetary": 834.7,
+    "penalty": 0.08,
+    "satisfaction": 86.8,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.1
+   },
+   {
+    "variant": "Unranked candidates",
+    "n": 18,
+    "composite": 844.4,
+    "monetary": 833.7,
+    "penalty": 0.08,
+    "satisfaction": 86.3,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.0
+   },
+   {
+    "variant": "Unweighted violations (u_i = 1)",
+    "n": 18,
+    "composite": 851.2,
+    "monetary": 842.7,
+    "penalty": 0.07,
+    "satisfaction": 92.7,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.7
+   },
+   {
+    "variant": "Penalty rate lambda = 0.5 c_t in the search",
+    "n": 18,
+    "composite": 839.9,
+    "monetary": 829.7,
+    "penalty": 0.08,
+    "satisfaction": 86.8,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": -0.2
+   },
+   {
+    "variant": "Penalty rate lambda = 2 c_t in the search",
+    "n": 18,
+    "composite": 847.8,
+    "monetary": 841.0,
+    "penalty": 0.05,
+    "satisfaction": 92.7,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": 0.1
+   },
+   {
+    "variant": "Oracle extraction (reference labels)",
+    "n": 18,
+    "composite": 836.9,
+    "monetary": 829.9,
+    "penalty": 0.06,
+    "satisfaction": 88.2,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": -1.1
+   },
+   {
+    "variant": "LLM extraction (gemini-3.8-flash)",
+    "n": 18,
+    "composite": 835.6,
+    "monetary": 830.8,
+    "penalty": 0.04,
+    "satisfaction": 92.3,
+    "bindingMissed": 0,
+    "runtime": 0.0,
+    "dComposite": -1.6
+   }
+  ],
+  "synthInstances": 3,
+  "synthVariants": [
+   {
+    "variant": "OR-Tools baseline (no refinement)",
+    "n": 3,
+    "composite": 9289.0,
+    "monetary": 6243.1,
+    "penalty": 24.07,
+    "satisfaction": 62.1,
+    "bindingMissed": 2,
+    "runtime": 30.1,
+    "dComposite": 21.9
+   },
+   {
+    "variant": "Proposed, full",
+    "n": 3,
+    "composite": 7626.6,
+    "monetary": 6653.1,
+    "penalty": 7.69,
+    "satisfaction": 79.5,
+    "bindingMissed": 2,
+    "runtime": 1.48,
+    "dComposite": 0.0
+   },
+   {
+    "variant": "Start from OR-Tools only",
+    "n": 3,
+    "composite": 7626.6,
+    "monetary": 6653.1,
+    "penalty": 7.69,
+    "satisfaction": 79.5,
+    "bindingMissed": 2,
+    "runtime": 1.47,
+    "dComposite": 0.0
+   },
+   {
+    "variant": "Start from nearest neighbour only",
+    "n": 3,
+    "composite": 9793.6,
+    "monetary": 9059.8,
+    "penalty": 5.8,
+    "satisfaction": 86.6,
+    "bindingMissed": 1,
+    "runtime": 1.23,
+    "dComposite": 29.1
+   },
+   {
+    "variant": "No 2-opt phase",
+    "n": 3,
+    "composite": 7982.9,
+    "monetary": 6921.4,
+    "penalty": 8.39,
+    "satisfaction": 80.1,
+    "bindingMissed": 2,
+    "runtime": 0.09,
+    "dComposite": 4.8
+   },
+   {
+    "variant": "Relocate and 2-opt only (no swap)",
+    "n": 3,
+    "composite": 7737.0,
+    "monetary": 6786.6,
+    "penalty": 7.51,
+    "satisfaction": 83.4,
+    "bindingMissed": 2,
+    "runtime": 1.06,
+    "dComposite": 1.6
+   },
+   {
+    "variant": "Swap and 2-opt only (no relocate)",
+    "n": 3,
+    "composite": 8304.6,
+    "monetary": 6618.8,
+    "penalty": 13.32,
+    "satisfaction": 74.3,
+    "bindingMissed": 3,
+    "runtime": 0.51,
+    "dComposite": 8.9
+   },
+   {
+    "variant": "2-opt only (no preference moves)",
+    "n": 3,
+    "composite": 8004.5,
+    "monetary": 6835.8,
+    "penalty": 9.24,
+    "satisfaction": 77.3,
+    "bindingMissed": 1,
+    "runtime": 1.0,
+    "dComposite": 5.1
+   },
+   {
+    "variant": "Unranked candidates",
+    "n": 3,
+    "composite": 7781.7,
+    "monetary": 6794.2,
+    "penalty": 7.81,
+    "satisfaction": 82.2,
+    "bindingMissed": 2,
+    "runtime": 1.32,
+    "dComposite": 2.1
+   },
+   {
+    "variant": "Unweighted violations (u_i = 1)",
+    "n": 3,
+    "composite": 8396.2,
+    "monetary": 8148.2,
+    "penalty": 1.96,
+    "satisfaction": 90.4,
+    "bindingMissed": 1,
+    "runtime": 1.13,
+    "dComposite": 10.4
+   },
+   {
+    "variant": "Penalty rate lambda = 0.5 c_t in the search",
+    "n": 3,
+    "composite": 7480.6,
+    "monetary": 6596.3,
+    "penalty": 6.99,
+    "satisfaction": 78.4,
+    "bindingMissed": 2,
+    "runtime": 0.53,
+    "dComposite": -1.8
+   },
+   {
+    "variant": "Penalty rate lambda = 2 c_t in the search",
+    "n": 3,
+    "composite": 7842.8,
+    "monetary": 7004.0,
+    "penalty": 6.63,
+    "satisfaction": 82.1,
+    "bindingMissed": 2,
+    "runtime": 1.22,
+    "dComposite": 2.8
+   },
+   {
+    "variant": "Oracle extraction (reference labels)",
+    "n": 3,
+    "composite": 7357.6,
+    "monetary": 6941.5,
+    "penalty": 3.29,
+    "satisfaction": 88.7,
+    "bindingMissed": 0,
+    "runtime": 0.83,
+    "dComposite": -3.3
+   },
+   {
+    "variant": "LLM extraction (gemini-3.8-flash)",
+    "n": 3,
+    "composite": 7680.7,
+    "monetary": 6558.3,
+    "penalty": 8.87,
+    "satisfaction": 78.5,
+    "bindingMissed": 0,
+    "runtime": 0.41,
+    "dComposite": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.581,27.162,1,27,binding,8.0,10.0,"By 10 am at the latest, the only time somebody is here. Otherwise I will postpone the whole order."
+2,46.627,27.237,2,184,flexible,,,"No problem, any slot works, we're home."
+3,46.506,27.189,3,103,strong,8.0,12.0,"Morning preferred, I work the second shift."
+4,46.643,27.071,4,28,binding,8.0,13.0,"strictly before 1, I'm leaving town for a week"
+5,46.6,27.029,5,2,binding,9.0,12.0,"Delivery must be between 9:00 and 12:00, no other option, I work shifts."
+6,46.601,27.019,6,8,binding,11.0,13.0,"I insist on 11-1, it's the only time somebody is at the site."
+7,46.547,27.012,7,108,strong,11.0,13.0,"Preferred slot 11 am-1 pm, my husband is home then."
+8,46.632,26.949,8,188,flexible,,,no preference. call before.
+9,46.504,26.973,9,9,binding,11.0,14.0,"Between 11 am and 2 pm and nothing else pls, the crane is booked for that window."

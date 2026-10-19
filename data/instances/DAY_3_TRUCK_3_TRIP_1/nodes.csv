@@ -1,0 +1,8 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.591,26.966,1,138,mild,8.0,12.0,"Ideally the morning, if it works for you."
+2,46.64,26.949,2,163,flexible,,,"I'm flexible, any slot works for me."
+3,46.572,26.939,3,53,strong,8.0,11.0,"8 am to 11 am suits me best, I need to be at the school later."
+4,46.539,26.956,4,121,mild,9.0,17.0,"If possible after 9 am, but not a problem otherwise."
+5,46.556,26.948,5,34,binding,8.0,11.0,"before 11 pls, must!! im leaving with the car at 11 and nobody stays home"
+6,46.592,26.931,6,79,strong,8.0,11.0,"I'd prefer before 11, otherwise I will postpone it."

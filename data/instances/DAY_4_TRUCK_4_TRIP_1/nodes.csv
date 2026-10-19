@@ -1,0 +1,14 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.346,27.095,1,182,flexible,,,"Whenever, no preference, home all day with the baby."
+2,46.404,27.133,2,80,strong,8.0,9.0,"Before 9 if possible, I'm counting on it, the painter comes at 9."
+3,46.344,27.2,3,66,strong,9.0,17.0,"I need it after 9:00 please, my shift ends then."
+4,46.306,27.297,4,101,strong,10.0,13.0,"between 10 and 13 if you can, we're not available the rest of the day"
+5,46.203,27.385,5,132,mild,8.0,12.0,"Please try before 12 pm if you can, I'd like to start the work today."
+6,46.193,27.065,6,23,binding,11.0,17.0,I'm only home after 11:00. Otherwise I cannot receive it and I really need it today.
+7,46.202,27.101,7,180,flexible,,,"Anytime, the site foreman is there from morning to evening."
+8,46.263,27.021,8,211,none,,,"Please call before, the intercom is broken."
+9,46.273,27.046,9,127,mild,11.0,17.0,"Later than 11 if it's possible, otherwise no worries."
+10,46.339,26.965,10,93,strong,11.0,14.0,"I'd prefer around midday, I need to leave again in the afternoon."
+11,46.341,26.954,11,89,strong,13.0,17.0,"preferably afternoon, we are not home before lunch"
+12,46.425,26.989,12,239,none,,,"Small street, better to come from the main road side."

@@ -1,0 +1,7 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.699,27.183,1,84,strong,8.0,12.0,"Morning suits me best, I need the boards before the carpenter arrives at lunch."
+2,46.608,26.938,2,81,strong,8.0,10.0,"prefer until 10:00, after that nobody home, my son could take it but he is at school"
+3,46.641,26.948,3,110,strong,8.0,10.0,8:00-10:00 preferably. I have a small child at home and nap time is after that.
+4,46.61,26.926,4,45,binding,10.0,13.0,"We can unload only 10:00-13:00, the forklift is rented for that slot. Very urgent."
+5,46.628,26.87,5,175,flexible,,,"No preference at all, the shop is open the whole day."

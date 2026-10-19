@@ -1,0 +1,6 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.553,26.92,1,181,flexible,,,"Any time works, please just call 10 minutes before."
+2,46.555,26.917,2,45,binding,8.0,10.0,"We can unload only 8:00-10:00, the forklift is rented for that slot. Very urgent."
+3,46.566,26.92,3,83,strong,8.0,12.0,"I would prefer the morning, I'm at work in the afternoon."
+4,46.52,26.968,4,169,flexible,,,"Come whenever, the gate is open all day."

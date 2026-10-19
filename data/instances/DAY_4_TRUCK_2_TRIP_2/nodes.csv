@@ -1,0 +1,7 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.526,26.956,1,174,flexible,,,"Flexible on time, just call when you're close."
+2,46.565,26.935,2,208,flexible,,,"All day is fine, no rush."
+3,46.514,26.971,3,68,strong,9.0,17.0,"Not available before 9, I'm at the doctor with my mother. After that is fine."
+4,46.537,26.957,4,99,strong,9.0,17.0,"I have an appointment in the morning, after 9:00 suits me."
+5,46.572,26.937,5,216,none,,,"Please make sure the bags are not torn, last time two were open."

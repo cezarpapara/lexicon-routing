@@ -1,0 +1,7 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.555,26.911,1,37,binding,8.0,12.0,"strictly morning, the road to the house is closed after lunch for asphalt works"
+2,46.552,26.922,2,5,binding,8.0,10.0,"Has to be from 8 to 10, I have a doctor appointment after and the neighbour can't sign."
+3,46.545,26.929,3,210,flexible,,,"No preference on time, thank you."
+4,46.53,26.918,4,107,strong,9.0,17.0,"I'm away till 9 am, please come after."
+5,46.559,26.92,5,16,binding,9.0,17.0,"Must be after 9. Before that the house is empty, don't come earlier."

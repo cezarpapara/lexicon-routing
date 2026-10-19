@@ -1,0 +1,6 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.523,26.962,1,6,binding,8.0,10.0,"Very urgent: between 8 and 10 only, I'm leaving town in the afternoon and I need the materials before."
+2,46.521,26.967,2,164,flexible,,,"no preference, whenever suits you"
+3,46.583,26.941,3,13,binding,8.0,10.0,"The tiles must arrive between 8 am and 10 am, the fitters are paid by the hour and leave after that."
+4,46.577,26.933,4,19,binding,9.0,17.0,"From 9 am onwards only. I'm out all morning with the kids, cannot be moved."

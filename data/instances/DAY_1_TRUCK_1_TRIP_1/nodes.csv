@@ -1,0 +1,7 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.719,26.704,1,6,binding,8.0,10.0,"Very urgent: between 8 and 10 only, I'm leaving town in the afternoon and I need the materials before."
+2,46.719,26.702,2,210,flexible,,,"No preference on time, thank you."
+3,46.573,26.906,3,167,flexible,,,"anytime is fine, just ring the bell"
+4,46.582,26.905,4,239,none,,,"Small street, better to come from the main road side."
+5,46.532,26.92,5,69,strong,10.0,17.0,"after 10 pls, i work until then, my wife might be home earlier but not sure"

@@ -1,0 +1,17 @@
+services:
+  app-python:
+    build:
+      context: .
+      dockerfile: docker/python/Dockerfile
+    container_name: lexicon-routing
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/app
+    environment:
+      WATCHFILES_FORCE_POLLING: "true"
+    env_file:
+      - .env
+      - path: .env.local
+        required: false
+    restart: unless-stopped

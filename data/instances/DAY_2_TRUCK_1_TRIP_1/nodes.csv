@@ -1,0 +1,6 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.753,26.877,1,245,none,,,"Please count the tiles with me, last time three were missing."
+2,46.748,26.883,2,8,binding,8.0,10.0,"I insist on 8 am-10 am, it's the only time somebody is at the site."
+3,46.572,26.893,3,111,mild,8.0,10.0,"If possible between 8:00 and 10:00, but it's not a big deal."
+4,46.576,26.909,4,217,none,,,"Ring the bell marked Popescu, it's the house with the blue roof."

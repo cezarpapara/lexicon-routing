@@ -1,0 +1,52 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.68414,27.220023,,124,mild,12.0,17.0,"Please try after 12:00 if you can, I have a small child and mornings are chaos."
+2,46.367647,27.015209,,154,mild,15.0,17.0,"3 pm-5 pm if possible please, if not leave it at the gate."
+3,46.423981,27.2867,,234,none,,,"Block B, apartment 14, the name on the door is different."
+4,46.532619,26.916877,,122,mild,11.0,17.0,"Ideally after 11 am, if it works for you."
+5,46.504865,26.9206,,125,mild,12.0,17.0,"maybe after 12 pm? if not, the neighbour at 12 can take it"
+6,46.509209,27.187466,,167,flexible,,,"anytime is fine, just ring the bell"
+7,46.338202,27.199891,,98,strong,15.0,17.0,"The fitters are here from 15:00 to 17:00, I need the sacks then if you can."
+8,46.552898,26.91885,,31,binding,8.0,12.0,"Before 12 and no later, I insist, after that I'm at work until late."
+9,46.543038,27.094756,,81,strong,8.0,15.0,"prefer until 15, after that nobody home, my son could take it but he is at school"
+10,46.429163,27.072935,,154,mild,14.0,17.0,"14:00-17:00 if possible please, if not leave it at the gate."
+11,46.549739,26.922168,,191,flexible,,,"whenever suits your route, we are here the whole day"
+12,46.496205,27.188085,,29,binding,8.0,11.0,Has to be before 11 am. The site closes then and the guard does not accept deliveries.
+13,46.281369,27.028509,,138,mild,8.0,12.0,"Ideally the morning, if it works for you."
+14,46.627426,26.861496,,242,none,,,"the buzzer doesnt work, knock on the window"
+15,46.433622,26.885459,,19,binding,13.0,17.0,"From 1 onwards only. I'm out all morning with the kids, cannot be moved."
+16,46.30839,27.302543,,32,binding,8.0,13.0,"I'm only home until 13:00, absolutely not after that."
+17,46.26185,27.018556,,237,none,,,No comments.
+18,46.558829,26.945898,,11,binding,14.0,17.0,"I'm at work the rest of the day, I'm only home 2 pm-5 pm. Cannot be moved."
+19,46.308436,26.913348,,118,mild,12.0,15.0,"12 to 3 would be great, but I can manage other hours as well."
+20,46.260434,27.026055,,23,binding,10.0,17.0,I'm only home after 10:00. Otherwise I cannot receive it and I really need it today.
+21,46.24149,27.047561,,214,none,,,"Leave it at the gate if nobody answers, it's safe."
+22,46.479608,26.91638,,169,flexible,,,"Come whenever, the gate is open all day."
+23,46.433666,27.070214,,183,flexible,,,"time does not matter, leave it in the yard if nobody answers"
+24,46.422525,26.998141,,190,flexible,,,"Flexible, no rush, thank you."
+25,46.624035,27.235222,,79,strong,8.0,15.0,"I'd prefer before 3 pm, otherwise I will postpone it."
+26,46.518017,26.966223,,240,none,,,The neighbour will sign if we are not around.
+27,46.429431,26.99126,,139,mild,8.0,12.0,"morning would be nice, otherwise ok too"
+28,46.400526,27.052511,,101,strong,14.0,16.0,"between 14:00 and 16:00 if you can, we're not available the rest of the day"
+29,46.574469,26.904599,,8,binding,8.0,11.0,"I insist on 8 am-11 am, it's the only time somebody is at the site."
+30,46.301656,26.988048,,231,none,,,Please text me when you're 15 minutes away.
+31,46.568577,26.935765,,166,flexible,,,"Whatever is easier for you, we're retired and always home."
+32,46.29804,26.983888,,124,mild,10.0,17.0,"Please try after 10 if you can, I have a small child and mornings are chaos."
+33,46.64006,26.951697,,39,binding,13.0,17.0,"Must be in the afternoon, mandatory. The morning is out, we are all at the funeral."
+34,46.749211,27.07791,,148,mild,15.0,17.0,"If possible late in the afternoon, but no drama."
+35,46.567387,26.921294,,119,mild,8.0,11.0,"if you can, 8-11. if not, just call me."
+36,46.551477,26.920558,,50,binding,13.0,17.0,"after 13 only, im at the doctor with the baby in the morning, cannot be moved"
+37,46.404302,27.057002,,232,none,,,"The gate code is 2580, drive in."
+38,46.547016,26.921466,,71,strong,9.0,17.0,I'd prefer after 9; before that the gate is usually locked because I'm at work.
+39,46.538687,26.914254,,224,none,,,"the street has no number, its the last house before the church"
+40,46.718398,26.704769,,235,none,,,we need the paint in the same colour as the last order please
+41,46.552425,26.922867,,145,mild,11.0,14.0,"Around noon if possible, but it's fine otherwise."
+42,46.208509,27.095936,,20,binding,16.0,17.0,"urgent - after 4 pm only, I have no one to leave home before that"
+43,46.357299,26.891408,,30,binding,8.0,14.0,"Until 14:00 only, I have an appointment I cannot move. Very urgent, the plumber comes tomorrow morning."
+44,46.419644,27.286112,,117,mild,9.0,12.0,"I'd ask for 9-12 if it's possible, no drama otherwise."
+45,46.524694,26.963203,,27,binding,8.0,16.0,"By 4 pm at the latest, the only time somebody is here. Otherwise I will postpone the whole order."
+46,46.578101,27.011477,,51,strong,9.0,12.0,"I would prefer between 9 and 12, that's when I'm usually home."
+47,46.543315,27.342263,,131,mild,8.0,10.0,"before 10 would be great, otherwise just ring the bell, someone is usually there"
+48,46.437334,26.881219,,87,strong,13.0,17.0,"I'd prefer the afternoon, I'm at work in the morning."
+49,46.563505,26.934797,,184,flexible,,,"No problem, any slot works, we're home."
+50,46.19579,27.097306,,11,binding,14.0,17.0,"I'm at work the rest of the day, I'm only home 2 pm-5 pm. Cannot be moved."

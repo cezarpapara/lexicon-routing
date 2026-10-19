@@ -1,0 +1,17 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.281,27.124,1,153,mild,8.0,10.0,"If you can, before 10:00. It would be better for me but not essential."
+2,46.255,27.144,2,105,strong,8.0,11.0,"I'd say 8 to 11, that's when I'm home for sure, otherwise call before."
+3,46.287,27.162,3,103,strong,8.0,12.0,"Morning preferred, I work the second shift."
+4,46.265,27.276,4,136,mild,8.0,11.0,"before 11 if it's possible, if not, whenever"
+5,46.2,27.145,5,165,flexible,,,"Time doesn't matter, I work from home."
+6,46.196,27.092,6,160,mild,11.0,17.0,"after 11 am maybe, if it works for you, otherwise fine"
+7,46.205,27.098,7,15,binding,10.0,17.0,"Only after 10, I'm at work until then and nobody else can receive it."
+8,46.337,27.084,8,166,flexible,,,"Whatever is easier for you, we're retired and always home."
+9,46.31,26.917,9,198,flexible,,,"No preference, please call the number on the order."
+10,46.331,27.005,10,183,flexible,,,"time does not matter, leave it in the yard if nobody answers"
+11,46.446,26.881,11,18,binding,13.0,17.0,"Strictly after 13, my shift ends then. If you come earlier nobody can receive the order."
+12,46.433,26.889,12,214,none,,,"Leave it at the gate if nobody answers, it's safe."
+13,46.446,26.881,13,111,mild,14.0,17.0,"If possible between 14 and 17, but it's not a big deal."
+14,46.459,26.946,14,180,flexible,,,"Anytime, the site foreman is there from morning to evening."
+15,46.486,26.917,15,30,binding,8.0,16.0,"Until 4 only, I have an appointment I cannot move. Very urgent, the plumber comes tomorrow morning."

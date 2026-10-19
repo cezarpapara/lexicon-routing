@@ -1,0 +1,134 @@
+Using Concorde/CPLEX
+Input in TSPLIB format
+Using fixed seed of 99
+Executing on prod-exec-7.neos-server.org
+concorde -f -s 99 -o results.txt concorde.dat
+Host: prod-exec-7.neos-server.org  Current process id: 4114237
+Using random seed 99
+Problem Name: SYN_100_1
+Problem Type: TSP
+edge weights = road metres / 1
+Number of Nodes: 101
+Explicit Lengths (CC_MATRIXNORM)
+Set initial upperbound to 416453 (from tour)
+  LP Value  1: 369898.500000  (0.03 seconds)
+  LP Value  2: 409864.000000  (0.05 seconds)
+  LP Value  3: 413294.666667  (0.09 seconds)
+  LP Value  4: 415375.938356  (0.15 seconds)
+  LP Value  5: 416222.000000  (0.20 seconds)
+  LP Value  6: 416420.500000  (0.26 seconds)
+  LP Value  7: 416453.000000  (0.27 seconds)
+New lower bound: 416453.000000
+Final lower bound 416453.000000, upper bound 416453.000000
+Exact lower bound: 416453.000000
+DIFF: 0.000000
+Final LP has 203 rows, 398 columns, 3894 nonzeros
+Optimal Solution: 416453.00
+Number of bbnodes: 1
+Total Running Time: 0.43 (seconds)
+
+
+Solution file output:
+101 101
+0 54 134
+54 70 448
+70 89 2400
+89 9 533
+9 99 574
+99 39 686
+39 13 471
+13 88 5608
+88 20 535
+20 96 627
+96 10 6954
+10 23 466
+23 81 1279
+81 66 4714
+66 4 858
+4 97 8016
+97 33 6087
+33 44 3604
+44 28 628
+28 26 6792
+26 38 4224
+38 86 3949
+86 31 472
+31 98 496
+98 71 694
+71 25 305
+25 5 253
+5 24 1242
+24 67 3412
+67 52 2385
+52 18 247
+18 90 2476
+90 35 4655
+35 42 6687
+42 60 4552
+60 50 352
+50 74 3709
+74 72 532
+72 15 6754
+15 69 645
+69 76 1173
+76 77 611
+77 47 926
+47 92 230
+92 40 778
+40 83 311
+83 41 13160
+41 3 40561
+3 30 26851
+30 32 1018
+32 22 989
+22 61 11489
+61 91 6169
+91 16 1222
+16 68 4336
+68 53 775
+53 51 21064
+51 63 731
+63 8 22207
+8 82 6555
+82 17 9753
+17 87 8768
+87 58 8600
+58 2 1477
+2 34 8506
+34 80 24211
+80 75 764
+75 1 719
+1 6 17685
+6 46 27210
+46 11 1505
+11 56 1846
+56 21 2193
+21 73 2009
+73 62 2487
+62 49 1923
+49 19 557
+19 7 2522
+7 94 503
+94 45 448
+45 29 173
+29 65 2090
+65 79 1206
+79 59 1383
+59 84 139
+84 100 1789
+100 14 269
+14 64 895
+64 43 142
+43 55 713
+55 48 533
+48 57 529
+57 36 3000
+36 12 970
+12 95 1893
+95 93 553
+93 27 502
+27 85 911
+85 37 5846
+37 78 3488
+78 0 5132
+

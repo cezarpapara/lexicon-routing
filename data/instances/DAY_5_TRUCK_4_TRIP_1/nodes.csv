@@ -1,0 +1,17 @@
+id,lat,lon,stop_seq,message_id,band,ref_start_h,ref_end_h,message
+0,46.509,26.926,,,,,,
+1,46.332,27.109,1,130,mild,8.0,10.0,"Ideally until 10 am, if it works with your route."
+2,46.356,27.235,2,196,flexible,,,"any time is good, we have a shop downstairs open all day"
+3,46.196,27.059,3,247,none,,,Deliver to the warehouse behind the shop.
+4,46.242,27.052,4,82,strong,8.0,13.0,"No later than 13 preferably, I'm leaving town in the afternoon."
+5,46.279,27.021,5,116,mild,11.0,14.0,"I hope you can come between 11 and 2, would be nice."
+6,46.261,26.99,6,23,binding,11.0,17.0,I'm only home after 11. Otherwise I cannot receive it and I really need it today.
+7,46.28,26.983,7,64,strong,11.0,17.0,"After 11 am suits me best, the mornings are hard with the small child."
+8,46.282,26.983,8,115,mild,12.0,15.0,maybe between 12 and 3? not a must
+9,46.305,26.996,9,159,mild,12.0,15.0,"Between 12 pm and 3 pm would be nice, I hope it works."
+10,46.298,26.989,10,225,none,,,Please handle the glass panels with care.
+11,46.406,26.913,11,57,strong,13.0,15.0,"prefer 13 - 15, the rest of the day im out with the car"
+12,46.435,26.893,12,128,mild,13.0,17.0,"after 13 pls if you can, not a must though"
+13,46.43,26.992,13,142,mild,13.0,17.0,"Ideally the afternoon, if it works with your route."
+14,46.426,26.995,14,15,binding,14.0,17.0,"Only after 14, I'm at work until then and nobody else can receive it."
+15,46.466,26.884,15,114,mild,15.0,17.0,"Please try 3 pm to 5 pm if you can, otherwise leave it with the neighbour."

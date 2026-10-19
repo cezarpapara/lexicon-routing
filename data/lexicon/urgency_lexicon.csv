@@ -1,0 +1,145 @@
+term,weight,category
+extremely urgent,0.80,binding
+very urgent,0.80,binding
+absolutely,0.70,binding
+and not a minute earlier,0.70,binding
+can't be moved,0.70,binding
+cannot be moved,0.70,binding
+has to be,0.70,binding
+have to be,0.70,binding
+i am only home,0.70,binding
+i insist,0.70,binding
+i'm only home,0.70,binding
+im only home,0.70,binding
+mandatory,0.70,binding
+must,0.70,binding
+no other option,0.70,binding
+no other time,0.70,binding
+nothing else,0.70,binding
+only,0.70,binding
+otherwise i can't receive,0.70,binding
+otherwise i cannot receive,0.70,binding
+otherwise nobody can receive,0.70,binding
+strictly,0.70,binding
+the only slot,0.70,binding
+the only time,0.70,binding
+urgent,0.70,binding
+no later,0.60,strong
+no one home,0.55,strong
+nobody home,0.55,strong
+nobody's home,0.55,strong
+i need,0.50,strong
+i really need,0.50,strong
+not available,0.50,strong
+otherwise i will postpone,0.50,strong
+otherwise it goes back,0.50,strong
+unavailable,0.50,strong
+doctor,0.45,strong
+hospital,0.45,strong
+i am at work,0.45,strong
+i am away,0.45,strong
+i am counting on,0.45,strong
+i have an appointment,0.45,strong
+i have to be,0.45,strong
+i leave at,0.45,strong
+i will be out,0.45,strong
+i work until,0.45,strong
+i would prefer,0.45,strong
+i'd prefer,0.45,strong
+i'll be out,0.45,strong
+i'm at work,0.45,strong
+i'm away,0.45,strong
+i'm counting on,0.45,strong
+im at work,0.45,strong
+im away,0.45,strong
+im not home,0.45,strong
+leaving town,0.45,strong
+night shift,0.45,strong
+not at home,0.45,strong
+not home,0.45,strong
+out of town,0.45,strong
+prefer,0.45,strong
+preferably,0.45,strong
+preferred,0.45,strong
+second shift,0.45,strong
+suits me,0.45,strong
+suits me best,0.45,strong
+that would suit me,0.45,strong
+works best,0.45,strong
+would be best,0.45,strong
+would suit me,0.45,strong
+i am leaving,0.40,strong
+i am out,0.40,strong
+i'm leaving,0.40,strong
+i'm out,0.40,strong
+im leaving,0.40,strong
+im out,0.40,strong
+my shift,0.40,strong
+working hours,0.40,strong
+at work,0.35,strong
+i work,0.35,strong
+shift,0.35,strong
+appointment,0.30,strong
+better for me,0.30,mild
+ideally,0.30,mild
+it would be better,0.30,mild
+i would ask,0.25,mild
+i'd ask,0.25,mild
+if it's possible,0.25,mild
+if possible,0.25,mild
+if you can,0.25,mild
+small child,0.25,mild
+would be great,0.25,mild
+would be nice,0.25,mild
+baby,0.20,mild
+please,0.20,mild
+pls,0.20,mild
+plz,0.20,mild
+school,0.20,mild
+try to,0.20,mild
+i hope,0.15,mild
+maybe,0.15,mild
+perhaps,0.15,mild
+if it works for you,0.10,mild
+fine otherwise,0.30,hedge
+if not,0.30,hedge
+no drama,0.30,hedge
+no worries,0.30,hedge
+not a big deal,0.30,hedge
+not a must,0.30,hedge
+not essential,0.30,hedge
+ok if not,0.30,hedge
+otherwise fine,0.30,hedge
+im home,-0.30,flexible
+i work from home,-0.35,flexible
+on holiday,-0.35,flexible
+on leave,-0.35,flexible
+retired,-0.35,flexible
+work from home,-0.35,flexible
+all day,-0.40,flexible
+no problem,-0.40,flexible
+any slot,-0.45,flexible
+flexible,-0.45,flexible
+no rush,-0.50,flexible
+whatever is easier,-0.50,flexible
+whatever suits,-0.50,flexible
+always home,-0.55,flexible
+any slot works,-0.55,flexible
+home all day,-0.55,flexible
+i am flexible,-0.55,flexible
+i am home all day,-0.55,flexible
+i'm flexible,-0.55,flexible
+i'm home all day,-0.55,flexible
+im flexible,-0.55,flexible
+im home all day,-0.55,flexible
+any time,-0.60,flexible
+any time works,-0.60,flexible
+anytime,-0.60,flexible
+doesn't matter when,-0.60,flexible
+no preference,-0.60,flexible
+really whenever,-0.60,flexible
+time does not matter,-0.60,flexible
+time doesn't matter,-0.60,flexible
+whenever,-0.60,flexible
+whenever suits you,-0.60,flexible
+whenever you can,-0.60,flexible
