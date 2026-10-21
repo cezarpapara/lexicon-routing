@@ -1,0 +1,532 @@
+{
+  "run_id": "20261018_161623_DAY_3_TRUCK_4_TRIP_1",
+  "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+  "variants": [
+    {
+      "solver": "OR-Tools baseline (no refinement)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 30.01
+    },
+    {
+      "solver": "Proposed, full",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Start from OR-Tools only",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Start from the dispatcher's sequence only",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 206.47,
+      "duration_h": 7.77,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1637.19,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 1637.19,
+      "stated": 9,
+      "met": 9,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 5
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Start from nearest neighbour only",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 257.71,
+      "duration_h": 8.81,
+      "waiting_h": 0.3,
+      "days": 1,
+      "monetary_cost_ron": 1932.17,
+      "penalty_h": 1.53,
+      "composite_cost_ron": 2125.51,
+      "stated": 9,
+      "met": 7,
+      "satisfaction_pct": 77.8,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 3
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "No 2-opt phase",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Relocate and 2-opt only (no swap)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Swap and 2-opt only (no relocate)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "2-opt only (no preference moves)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Unranked candidates",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Unweighted violations (u_i = 1)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Penalty rate lambda = 0.5 c_t in the search",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Penalty rate lambda = 2 c_t in the search",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "Oracle extraction (reference labels)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "LLM extraction (gemini-3.8-flash)",
+      "instance_id": "DAY_3_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 190.6,
+      "duration_h": 7.56,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1560.65,
+      "penalty_h": 0.02,
+      "composite_cost_ron": 1563.32,
+      "stated": 9,
+      "met": 8,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 4
+        },
+        "strong": {
+          "stated": 1,
+          "met": 1
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    }
+  ],
+  "skipped": {}
+}

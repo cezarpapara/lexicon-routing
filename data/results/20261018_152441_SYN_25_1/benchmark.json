@@ -1,0 +1,1243 @@
+{
+  "run_id": "20261018_152441_SYN_25_1",
+  "instance_id": "SYN_25_1",
+  "extractor": "lexicon",
+  "stops": 25,
+  "evaluations": [
+    {
+      "solver": "nearest",
+      "instance_id": "SYN_25_1",
+      "stops": 25,
+      "distance_km": 371.48,
+      "duration_h": 35.09,
+      "waiting_h": 20.58,
+      "days": 4,
+      "monetary_cost_ron": 5616.62,
+      "penalty_h": 0.83,
+      "composite_cost_ron": 5721.16,
+      "stated": 18,
+      "met": 14,
+      "satisfaction_pct": 77.8,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 3
+        },
+        "strong": {
+          "stated": 4,
+          "met": 2
+        },
+        "binding": {
+          "stated": 9,
+          "met": 9
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "SYN_25_1",
+      "stops": 25,
+      "distance_km": 276.45,
+      "duration_h": 27.22,
+      "waiting_h": 14.83,
+      "days": 3,
+      "monetary_cost_ron": 4320.87,
+      "penalty_h": 1.93,
+      "composite_cost_ron": 4564.94,
+      "stated": 18,
+      "met": 16,
+      "satisfaction_pct": 88.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 3
+        },
+        "strong": {
+          "stated": 4,
+          "met": 4
+        },
+        "binding": {
+          "stated": 9,
+          "met": 9
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "SYN_25_1",
+      "stops": 25,
+      "distance_km": 311.48,
+      "duration_h": 14.96,
+      "waiting_h": 1.78,
+      "days": 2,
+      "monetary_cost_ron": 2879.69,
+      "penalty_h": 3.16,
+      "composite_cost_ron": 3279.31,
+      "stated": 18,
+      "met": 14,
+      "satisfaction_pct": 77.8,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 3
+        },
+        "strong": {
+          "stated": 4,
+          "met": 2
+        },
+        "binding": {
+          "stated": 9,
+          "met": 9
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 30.03
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "SYN_25_1",
+      "stops": 25,
+      "distance_km": 417.28,
+      "duration_h": 19.59,
+      "waiting_h": 4.07,
+      "days": 3,
+      "monetary_cost_ron": 3801.91,
+      "penalty_h": 1.0,
+      "composite_cost_ron": 3927.96,
+      "stated": 18,
+      "met": 13,
+      "satisfaction_pct": 72.2,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 3
+        },
+        "strong": {
+          "stated": 4,
+          "met": 1
+        },
+        "binding": {
+          "stated": 9,
+          "met": 9
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "guided",
+      "instance_id": "SYN_25_1",
+      "stops": 25,
+      "distance_km": 311.48,
+      "duration_h": 14.96,
+      "waiting_h": 1.78,
+      "days": 2,
+      "monetary_cost_ron": 2879.69,
+      "penalty_h": 3.16,
+      "composite_cost_ron": 3279.31,
+      "stated": 18,
+      "met": 14,
+      "satisfaction_pct": 77.8,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 5,
+          "met": 3
+        },
+        "strong": {
+          "stated": 4,
+          "met": 2
+        },
+        "binding": {
+          "stated": 9,
+          "met": 9
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    }
+  ],
+  "solutions": [
+    {
+      "solver": "nearest",
+      "instance_id": "SYN_25_1",
+      "route": [
+        9,
+        13,
+        10,
+        23,
+        4,
+        20,
+        12,
+        14,
+        19,
+        7,
+        21,
+        11,
+        2,
+        17,
+        8,
+        16,
+        22,
+        15,
+        18,
+        5,
+        25,
+        24,
+        3,
+        1,
+        6
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": 9.0,
+          "end_h": 12.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "3": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "5": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "8": {
+          "start_h": 8.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "10": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "16": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "17": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "18": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "19": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "20": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "21": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "22": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "24": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.000028667011065408587,
+      "params": {}
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "SYN_25_1",
+      "route": [
+        9,
+        13,
+        20,
+        10,
+        23,
+        4,
+        24,
+        25,
+        5,
+        18,
+        15,
+        3,
+        22,
+        16,
+        8,
+        17,
+        2,
+        21,
+        11,
+        1,
+        6,
+        7,
+        19,
+        14,
+        12
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": 9.0,
+          "end_h": 12.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "3": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "5": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "8": {
+          "start_h": 8.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "10": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "16": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "17": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "18": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "19": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "20": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "21": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "22": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "24": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.0004474159941310063,
+      "params": {}
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "SYN_25_1",
+      "route": [
+        9,
+        13,
+        20,
+        4,
+        23,
+        10,
+        12,
+        14,
+        7,
+        19,
+        2,
+        11,
+        1,
+        6,
+        21,
+        17,
+        8,
+        16,
+        22,
+        3,
+        15,
+        18,
+        24,
+        25,
+        5
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": 9.0,
+          "end_h": 12.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "3": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "5": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "8": {
+          "start_h": 8.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "10": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "16": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "17": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "18": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "19": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "20": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "21": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "22": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "24": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        }
+      },
+      "runtime_s": 30.025882847010507,
+      "params": {
+        "time_limit_s": 30
+      }
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "SYN_25_1",
+      "route": [
+        9,
+        13,
+        10,
+        23,
+        4,
+        20,
+        12,
+        14,
+        19,
+        7,
+        21,
+        11,
+        1,
+        17,
+        8,
+        16,
+        22,
+        15,
+        25,
+        24,
+        3,
+        18,
+        5,
+        6,
+        2
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": 9.0,
+          "end_h": 12.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "3": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "5": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "8": {
+          "start_h": 8.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "10": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "16": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "17": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "18": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "19": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "20": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "21": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "22": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "24": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.00006791700434405357,
+      "params": {}
+    },
+    {
+      "solver": "guided",
+      "instance_id": "SYN_25_1",
+      "route": [
+        9,
+        13,
+        20,
+        4,
+        23,
+        10,
+        12,
+        14,
+        7,
+        19,
+        2,
+        11,
+        1,
+        6,
+        21,
+        17,
+        8,
+        16,
+        22,
+        3,
+        15,
+        18,
+        24,
+        25,
+        5
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": 9.0,
+          "end_h": 12.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "3": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "5": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "8": {
+          "start_h": 8.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "10": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "16": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "17": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "18": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "19": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "20": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "21": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "22": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "24": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.0018323340045753866,
+      "params": {
+        "penalty_per_hour": 126.52,
+        "start": "ortools"
+      }
+    }
+  ],
+  "skipped": {
+    "dispatcher": "SYN_25_1 has no dispatcher sequence (synthetic instance)"
+  }
+}

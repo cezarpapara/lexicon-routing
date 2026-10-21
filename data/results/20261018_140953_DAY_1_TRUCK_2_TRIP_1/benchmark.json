@@ -1,0 +1,478 @@
+{
+  "run_id": "20261018_140953_DAY_1_TRUCK_2_TRIP_1",
+  "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+  "extractor": "lexicon",
+  "stops": 4,
+  "evaluations": [
+    {
+      "solver": "dispatcher",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "stops": 4,
+      "distance_km": 30.78,
+      "duration_h": 1.69,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 311.54,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 311.54,
+      "stated": 3,
+      "met": 3,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 0,
+          "met": 0
+        },
+        "strong": {
+          "stated": 0,
+          "met": 0
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "nearest",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "stops": 4,
+      "distance_km": 29.63,
+      "duration_h": 1.79,
+      "waiting_h": 0.13,
+      "days": 1,
+      "monetary_cost_ron": 320.18,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 320.18,
+      "stated": 3,
+      "met": 3,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 0,
+          "met": 0
+        },
+        "strong": {
+          "stated": 0,
+          "met": 0
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "stops": 4,
+      "distance_km": 29.63,
+      "duration_h": 2.12,
+      "waiting_h": 0.46,
+      "days": 1,
+      "monetary_cost_ron": 362.46,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 362.46,
+      "stated": 3,
+      "met": 3,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 0,
+          "met": 0
+        },
+        "strong": {
+          "stated": 0,
+          "met": 0
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "stops": 4,
+      "distance_km": 30.78,
+      "duration_h": 1.69,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 311.54,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 311.54,
+      "stated": 3,
+      "met": 3,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 0,
+          "met": 0
+        },
+        "strong": {
+          "stated": 0,
+          "met": 0
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 30.01
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "stops": 4,
+      "distance_km": 29.63,
+      "duration_h": 1.79,
+      "waiting_h": 0.13,
+      "days": 1,
+      "monetary_cost_ron": 320.18,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 320.18,
+      "stated": 3,
+      "met": 3,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 0,
+          "met": 0
+        },
+        "strong": {
+          "stated": 0,
+          "met": 0
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "guided",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "stops": 4,
+      "distance_km": 30.78,
+      "duration_h": 1.69,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 311.54,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 311.54,
+      "stated": 3,
+      "met": 3,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 0,
+          "met": 0
+        },
+        "strong": {
+          "stated": 0,
+          "met": 0
+        },
+        "binding": {
+          "stated": 3,
+          "met": 3
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    }
+  ],
+  "solutions": [
+    {
+      "solver": "dispatcher",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "route": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        }
+      },
+      "runtime_s": 2.374988980591297e-6,
+      "params": {}
+    },
+    {
+      "solver": "nearest",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "route": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        }
+      },
+      "runtime_s": 6.124988431110978e-6,
+      "params": {}
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "route": [
+        3,
+        4,
+        2,
+        1
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        }
+      },
+      "runtime_s": 0.00012812500062864274,
+      "params": {}
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "route": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        }
+      },
+      "runtime_s": 30.006023263995303,
+      "params": {
+        "time_limit_s": 30
+      }
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "route": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        }
+      },
+      "runtime_s": 0.000036958008422516286,
+      "params": {}
+    },
+    {
+      "solver": "guided",
+      "instance_id": "DAY_1_TRUCK_2_TRIP_1",
+      "route": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        }
+      },
+      "runtime_s": 0.00008916699152905494,
+      "params": {
+        "penalty_per_hour": 126.52,
+        "start": "ortools"
+      }
+    }
+  ],
+  "skipped": {}
+}

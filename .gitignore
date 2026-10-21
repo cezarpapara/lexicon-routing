@@ -19,7 +19,6 @@ dist/
 .env.local
 
 # Run outputs (the report folder with the tables of the paper is kept)
-data/results/*/
 !data/results/report/
 
 # local scratch
@@ -32,3 +31,6 @@ data/corpus/llm/
 
 # Manuscript sources (not part of the released code)
 paper/manuscript/
+
+# Console logs of the runs (kept locally only)
+data/results/logs/

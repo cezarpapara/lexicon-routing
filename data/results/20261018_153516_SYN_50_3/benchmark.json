@@ -1,0 +1,2243 @@
+{
+  "run_id": "20261018_153516_SYN_50_3",
+  "instance_id": "SYN_50_3",
+  "extractor": "lexicon",
+  "stops": 50,
+  "evaluations": [
+    {
+      "solver": "nearest",
+      "instance_id": "SYN_50_3",
+      "stops": 50,
+      "distance_km": 346.08,
+      "duration_h": 35.25,
+      "waiting_h": 15.06,
+      "days": 4,
+      "monetary_cost_ron": 5557.17,
+      "penalty_h": 18.55,
+      "composite_cost_ron": 7904.05,
+      "stated": 36,
+      "met": 20,
+      "satisfaction_pct": 55.6,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 10,
+          "met": 5
+        },
+        "strong": {
+          "stated": 16,
+          "met": 5
+        },
+        "binding": {
+          "stated": 10,
+          "met": 10
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "SYN_50_3",
+      "stops": 50,
+      "distance_km": 288.14,
+      "duration_h": 38.34,
+      "waiting_h": 19.43,
+      "days": 5,
+      "monetary_cost_ron": 5763.69,
+      "penalty_h": 12.23,
+      "composite_cost_ron": 7311.53,
+      "stated": 36,
+      "met": 23,
+      "satisfaction_pct": 63.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 10,
+          "met": 6
+        },
+        "strong": {
+          "stated": 16,
+          "met": 7
+        },
+        "binding": {
+          "stated": 10,
+          "met": 10
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "SYN_50_3",
+      "stops": 50,
+      "distance_km": 304.01,
+      "duration_h": 19.26,
+      "waiting_h": 0.0,
+      "days": 3,
+      "monetary_cost_ron": 3400.0,
+      "penalty_h": 19.95,
+      "composite_cost_ron": 5923.66,
+      "stated": 36,
+      "met": 19,
+      "satisfaction_pct": 52.8,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 10,
+          "met": 6
+        },
+        "strong": {
+          "stated": 16,
+          "met": 3
+        },
+        "binding": {
+          "stated": 10,
+          "met": 10
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 30.02
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "SYN_50_3",
+      "stops": 50,
+      "distance_km": 391.98,
+      "duration_h": 23.26,
+      "waiting_h": 2.05,
+      "days": 3,
+      "monetary_cost_ron": 4185.74,
+      "penalty_h": 20.99,
+      "composite_cost_ron": 6841.39,
+      "stated": 36,
+      "met": 18,
+      "satisfaction_pct": 50.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 10,
+          "met": 4
+        },
+        "strong": {
+          "stated": 16,
+          "met": 4
+        },
+        "binding": {
+          "stated": 10,
+          "met": 10
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "guided",
+      "instance_id": "SYN_50_3",
+      "stops": 50,
+      "distance_km": 340.54,
+      "duration_h": 20.07,
+      "waiting_h": 0.0,
+      "days": 3,
+      "monetary_cost_ron": 3618.52,
+      "penalty_h": 7.21,
+      "composite_cost_ron": 4530.46,
+      "stated": 36,
+      "met": 29,
+      "satisfaction_pct": 80.6,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 10,
+          "met": 6
+        },
+        "strong": {
+          "stated": 16,
+          "met": 13
+        },
+        "binding": {
+          "stated": 10,
+          "met": 10
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.07
+    }
+  ],
+  "solutions": [
+    {
+      "solver": "nearest",
+      "instance_id": "SYN_50_3",
+      "route": [
+        26,
+        46,
+        47,
+        2,
+        40,
+        4,
+        3,
+        1,
+        39,
+        19,
+        45,
+        41,
+        18,
+        8,
+        25,
+        20,
+        10,
+        23,
+        32,
+        7,
+        29,
+        24,
+        33,
+        27,
+        35,
+        6,
+        21,
+        12,
+        28,
+        22,
+        34,
+        50,
+        31,
+        9,
+        36,
+        15,
+        17,
+        37,
+        44,
+        11,
+        5,
+        48,
+        49,
+        30,
+        42,
+        38,
+        14,
+        13,
+        43,
+        16
+      ],
+      "preferences": {
+        "1": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "5": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "7": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "10": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "13": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "16": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "17": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.55,
+          "band": "strong",
+          "hard": false
+        },
+        "18": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "19": {
+          "start_h": 8.0,
+          "end_h": 9.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "20": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "21": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "22": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "24": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "26": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "27": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "28": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "29": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "30": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "31": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "32": {
+          "start_h": 14.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "33": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "34": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "35": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "36": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "37": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "38": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "39": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "40": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "41": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "42": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "43": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "44": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "45": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "46": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "47": {
+          "start_h": 12.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "48": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "49": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "50": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.00008320801134686917,
+      "params": {}
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "SYN_50_3",
+      "route": [
+        31,
+        28,
+        35,
+        6,
+        21,
+        12,
+        34,
+        50,
+        22,
+        9,
+        36,
+        5,
+        11,
+        49,
+        48,
+        44,
+        37,
+        17,
+        15,
+        30,
+        42,
+        38,
+        7,
+        43,
+        13,
+        14,
+        16,
+        32,
+        23,
+        10,
+        20,
+        25,
+        8,
+        18,
+        41,
+        19,
+        39,
+        1,
+        3,
+        4,
+        40,
+        45,
+        47,
+        2,
+        46,
+        26,
+        29,
+        24,
+        33,
+        27
+      ],
+      "preferences": {
+        "1": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "5": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "7": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "10": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "13": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "16": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "17": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.55,
+          "band": "strong",
+          "hard": false
+        },
+        "18": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "19": {
+          "start_h": 8.0,
+          "end_h": 9.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "20": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "21": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "22": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "24": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "26": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "27": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "28": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "29": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "30": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "31": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "32": {
+          "start_h": 14.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "33": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "34": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "35": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "36": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "37": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "38": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "39": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "40": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "41": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "42": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "43": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "44": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "45": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "46": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "47": {
+          "start_h": 12.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "48": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "49": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "50": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.00039891700726002455,
+      "params": {}
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "SYN_50_3",
+      "route": [
+        26,
+        46,
+        45,
+        19,
+        39,
+        8,
+        18,
+        41,
+        1,
+        40,
+        4,
+        3,
+        47,
+        2,
+        29,
+        24,
+        33,
+        27,
+        35,
+        6,
+        21,
+        12,
+        28,
+        31,
+        34,
+        50,
+        22,
+        9,
+        36,
+        5,
+        11,
+        49,
+        48,
+        44,
+        37,
+        17,
+        15,
+        30,
+        42,
+        38,
+        7,
+        43,
+        13,
+        14,
+        16,
+        32,
+        23,
+        10,
+        20,
+        25
+      ],
+      "preferences": {
+        "1": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "5": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "7": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "10": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "13": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "16": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "17": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.55,
+          "band": "strong",
+          "hard": false
+        },
+        "18": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "19": {
+          "start_h": 8.0,
+          "end_h": 9.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "20": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "21": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "22": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "24": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "26": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "27": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "28": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "29": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "30": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "31": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "32": {
+          "start_h": 14.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "33": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "34": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "35": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "36": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "37": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "38": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "39": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "40": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "41": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "42": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "43": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "44": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "45": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "46": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "47": {
+          "start_h": 12.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "48": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "49": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "50": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 30.022001431003446,
+      "params": {
+        "time_limit_s": 30
+      }
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "SYN_50_3",
+      "route": [
+        26,
+        46,
+        47,
+        2,
+        40,
+        4,
+        1,
+        39,
+        45,
+        41,
+        18,
+        8,
+        3,
+        29,
+        24,
+        33,
+        27,
+        35,
+        6,
+        21,
+        12,
+        28,
+        22,
+        34,
+        50,
+        31,
+        25,
+        20,
+        10,
+        23,
+        32,
+        7,
+        14,
+        13,
+        43,
+        16,
+        9,
+        36,
+        15,
+        17,
+        37,
+        44,
+        11,
+        48,
+        49,
+        5,
+        19,
+        38,
+        42,
+        30
+      ],
+      "preferences": {
+        "1": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "5": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "7": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "10": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "13": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "16": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "17": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.55,
+          "band": "strong",
+          "hard": false
+        },
+        "18": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "19": {
+          "start_h": 8.0,
+          "end_h": 9.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "20": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "21": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "22": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "24": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "26": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "27": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "28": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "29": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "30": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "31": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "32": {
+          "start_h": 14.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "33": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "34": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "35": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "36": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "37": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "38": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "39": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "40": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "41": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "42": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "43": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "44": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "45": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "46": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "47": {
+          "start_h": 12.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "48": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "49": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "50": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.0001788749941624701,
+      "params": {}
+    },
+    {
+      "solver": "guided",
+      "instance_id": "SYN_50_3",
+      "route": [
+        6,
+        31,
+        19,
+        39,
+        1,
+        4,
+        40,
+        29,
+        24,
+        33,
+        27,
+        26,
+        46,
+        2,
+        47,
+        45,
+        3,
+        41,
+        18,
+        8,
+        28,
+        21,
+        12,
+        35,
+        50,
+        34,
+        22,
+        9,
+        17,
+        15,
+        36,
+        5,
+        11,
+        37,
+        44,
+        49,
+        48,
+        30,
+        42,
+        38,
+        32,
+        23,
+        16,
+        14,
+        13,
+        43,
+        7,
+        10,
+        20,
+        25
+      ],
+      "preferences": {
+        "1": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "4": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "5": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "6": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "7": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "9": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "10": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "11": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "12": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "13": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "14": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "15": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "16": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "17": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.55,
+          "band": "strong",
+          "hard": false
+        },
+        "18": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "19": {
+          "start_h": 8.0,
+          "end_h": 9.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "20": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "21": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "22": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "23": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "24": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "25": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "26": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "27": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "28": {
+          "start_h": 8.0,
+          "end_h": 13.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "29": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "30": {
+          "start_h": 12.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "31": {
+          "start_h": 8.0,
+          "end_h": 11.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "32": {
+          "start_h": 14.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "33": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.8,
+          "band": "binding",
+          "hard": true
+        },
+        "34": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "35": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "36": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "37": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "38": {
+          "start_h": 9.0,
+          "end_h": 11.0,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "39": {
+          "start_h": 8.0,
+          "end_h": 12.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "40": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "41": {
+          "start_h": 10.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "42": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "43": {
+          "start_h": 9.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "44": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "45": {
+          "start_h": 8.0,
+          "end_h": 16.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "46": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "47": {
+          "start_h": 12.0,
+          "end_h": 14.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "48": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "49": {
+          "start_h": 10.0,
+          "end_h": 13.0,
+          "urgency": 0.5,
+          "band": "strong",
+          "hard": false
+        },
+        "50": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.07162783300736919,
+      "params": {
+        "penalty_per_hour": 126.52,
+        "start": "ortools"
+      }
+    }
+  ],
+  "skipped": {
+    "dispatcher": "SYN_50_3 has no dispatcher sequence (synthetic instance)"
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "run_id": "20261018_163129_SYN_100_2",
+  "instance_id": "SYN_100_2",
+  "variants": [
+    {
+      "solver": "OR-Tools baseline (no refinement)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 458.91,
+      "duration_h": 35.57,
+      "waiting_h": 0.37,
+      "days": 4,
+      "monetary_cost_ron": 5955.28,
+      "penalty_h": 29.25,
+      "composite_cost_ron": 9655.83,
+      "stated": 58,
+      "met": 29,
+      "satisfaction_pct": 50.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 6
+        },
+        "strong": {
+          "stated": 26,
+          "met": 10
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 30.04
+    },
+    {
+      "solver": "Proposed, full",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 552.44,
+      "duration_h": 37.42,
+      "waiting_h": 0.15,
+      "days": 5,
+      "monetary_cost_ron": 6485.98,
+      "penalty_h": 12.39,
+      "composite_cost_ron": 8054.06,
+      "stated": 58,
+      "met": 43,
+      "satisfaction_pct": 74.1,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 12
+        },
+        "strong": {
+          "stated": 26,
+          "met": 18
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 1.18
+    },
+    {
+      "solver": "Start from OR-Tools only",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 552.44,
+      "duration_h": 37.42,
+      "waiting_h": 0.15,
+      "days": 5,
+      "monetary_cost_ron": 6485.98,
+      "penalty_h": 12.39,
+      "composite_cost_ron": 8054.06,
+      "stated": 58,
+      "met": 43,
+      "satisfaction_pct": 74.1,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 12
+        },
+        "strong": {
+          "stated": 26,
+          "met": 18
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 1.19
+    },
+    {
+      "solver": "Start from nearest neighbour only",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 692.78,
+      "duration_h": 42.67,
+      "waiting_h": 2.28,
+      "days": 5,
+      "monetary_cost_ron": 7594.87,
+      "penalty_h": 6.76,
+      "composite_cost_ron": 8449.55,
+      "stated": 58,
+      "met": 51,
+      "satisfaction_pct": 87.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 17
+        },
+        "strong": {
+          "stated": 26,
+          "met": 21
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.86
+    },
+    {
+      "solver": "No 2-opt phase",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 581.01,
+      "duration_h": 38.82,
+      "waiting_h": 0.91,
+      "days": 5,
+      "monetary_cost_ron": 6753.31,
+      "penalty_h": 13.19,
+      "composite_cost_ron": 8422.72,
+      "stated": 58,
+      "met": 44,
+      "satisfaction_pct": 75.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 12
+        },
+        "strong": {
+          "stated": 26,
+          "met": 19
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.05
+    },
+    {
+      "solver": "Relocate and 2-opt only (no swap)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 585.16,
+      "duration_h": 38.63,
+      "waiting_h": 0.63,
+      "days": 5,
+      "monetary_cost_ron": 6743.06,
+      "penalty_h": 8.03,
+      "composite_cost_ron": 7759.01,
+      "stated": 58,
+      "met": 48,
+      "satisfaction_pct": 82.8,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 14
+        },
+        "strong": {
+          "stated": 26,
+          "met": 21
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 1.21
+    },
+    {
+      "solver": "Swap and 2-opt only (no relocate)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 532.32,
+      "duration_h": 36.99,
+      "waiting_h": 0.17,
+      "days": 5,
+      "monetary_cost_ron": 6368.07,
+      "penalty_h": 18.42,
+      "composite_cost_ron": 8698.57,
+      "stated": 58,
+      "met": 40,
+      "satisfaction_pct": 69.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 11
+        },
+        "strong": {
+          "stated": 26,
+          "met": 16
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.61
+    },
+    {
+      "solver": "2-opt only (no preference moves)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 552.65,
+      "duration_h": 37.28,
+      "waiting_h": 0.0,
+      "days": 5,
+      "monetary_cost_ron": 6468.68,
+      "penalty_h": 14.07,
+      "composite_cost_ron": 8249.4,
+      "stated": 58,
+      "met": 40,
+      "satisfaction_pct": 69.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 10
+        },
+        "strong": {
+          "stated": 26,
+          "met": 17
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.83
+    },
+    {
+      "solver": "Unranked candidates",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 590.47,
+      "duration_h": 38.12,
+      "waiting_h": 0.0,
+      "days": 5,
+      "monetary_cost_ron": 6694.83,
+      "penalty_h": 11.62,
+      "composite_cost_ron": 8164.7,
+      "stated": 58,
+      "met": 46,
+      "satisfaction_pct": 79.3,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 14
+        },
+        "strong": {
+          "stated": 26,
+          "met": 19
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 1.89
+    },
+    {
+      "solver": "Unweighted violations (u_i = 1)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 738.71,
+      "duration_h": 45.18,
+      "waiting_h": 3.77,
+      "days": 5,
+      "monetary_cost_ron": 8058.26,
+      "penalty_h": 0.87,
+      "composite_cost_ron": 8168.55,
+      "stated": 58,
+      "met": 50,
+      "satisfaction_pct": 86.2,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 15
+        },
+        "strong": {
+          "stated": 26,
+          "met": 22
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 1.16
+    },
+    {
+      "solver": "Penalty rate lambda = 0.5 c_t in the search",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 544.85,
+      "duration_h": 37.22,
+      "waiting_h": 0.11,
+      "days": 5,
+      "monetary_cost_ron": 6435.65,
+      "penalty_h": 8.32,
+      "composite_cost_ron": 7488.19,
+      "stated": 58,
+      "met": 41,
+      "satisfaction_pct": 70.7,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 9
+        },
+        "strong": {
+          "stated": 26,
+          "met": 19
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.52
+    },
+    {
+      "solver": "Penalty rate lambda = 2 c_t in the search",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 656.61,
+      "duration_h": 39.67,
+      "waiting_h": 0.08,
+      "days": 5,
+      "monetary_cost_ron": 7100.46,
+      "penalty_h": 10.45,
+      "composite_cost_ron": 8423.01,
+      "stated": 58,
+      "met": 44,
+      "satisfaction_pct": 75.9,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 12
+        },
+        "strong": {
+          "stated": 26,
+          "met": 19
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.96
+    },
+    {
+      "solver": "Oracle extraction (reference labels)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 621.47,
+      "duration_h": 38.91,
+      "waiting_h": 0.1,
+      "days": 5,
+      "monetary_cost_ron": 6892.71,
+      "penalty_h": 2.33,
+      "composite_cost_ron": 7187.09,
+      "stated": 58,
+      "met": 53,
+      "satisfaction_pct": 91.4,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 15
+        },
+        "strong": {
+          "stated": 26,
+          "met": 25
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 1.19
+    },
+    {
+      "solver": "LLM extraction (gemini-3.8-flash)",
+      "instance_id": "SYN_100_2",
+      "stops": 100,
+      "distance_km": 545.01,
+      "duration_h": 37.11,
+      "waiting_h": 0.0,
+      "days": 5,
+      "monetary_cost_ron": 6422.83,
+      "penalty_h": 7.94,
+      "composite_cost_ron": 7427.4,
+      "stated": 58,
+      "met": 42,
+      "satisfaction_pct": 72.4,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 19,
+          "met": 11
+        },
+        "strong": {
+          "stated": 26,
+          "met": 18
+        },
+        "binding": {
+          "stated": 13,
+          "met": 13
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.31
+    }
+  ],
+  "skipped": {}
+}

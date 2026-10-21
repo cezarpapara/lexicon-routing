@@ -1,0 +1,1006 @@
+{
+  "run_id": "20261018_141727_DAY_5_TRUCK_4_TRIP_1",
+  "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+  "extractor": "lexicon",
+  "stops": 15,
+  "evaluations": [
+    {
+      "solver": "dispatcher",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 221.96,
+      "duration_h": 8.34,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1758.59,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 1758.59,
+      "stated": 12,
+      "met": 12,
+      "satisfaction_pct": 100.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 7,
+          "met": 7
+        },
+        "strong": {
+          "stated": 3,
+          "met": 3
+        },
+        "binding": {
+          "stated": 2,
+          "met": 2
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "nearest",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 235.28,
+      "duration_h": 8.65,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1840.82,
+      "penalty_h": 6.96,
+      "composite_cost_ron": 2721.69,
+      "stated": 12,
+      "met": 4,
+      "satisfaction_pct": 33.3,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 7,
+          "met": 1
+        },
+        "strong": {
+          "stated": 3,
+          "met": 1
+        },
+        "binding": {
+          "stated": 2,
+          "met": 2
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 183.81,
+      "duration_h": 15.62,
+      "waiting_h": 7.81,
+      "days": 2,
+      "monetary_cost_ron": 2558.45,
+      "penalty_h": 2.54,
+      "composite_cost_ron": 2880.05,
+      "stated": 12,
+      "met": 9,
+      "satisfaction_pct": 75.0,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 7,
+          "met": 4
+        },
+        "strong": {
+          "stated": 3,
+          "met": 3
+        },
+        "binding": {
+          "stated": 2,
+          "met": 2
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 183.81,
+      "duration_h": 7.81,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1570.4,
+      "penalty_h": 7.25,
+      "composite_cost_ron": 2488.05,
+      "stated": 12,
+      "met": 4,
+      "satisfaction_pct": 33.3,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 7,
+          "met": 1
+        },
+        "strong": {
+          "stated": 3,
+          "met": 1
+        },
+        "binding": {
+          "stated": 2,
+          "met": 2
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 30.01
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 235.28,
+      "duration_h": 8.65,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1840.82,
+      "penalty_h": 6.96,
+      "composite_cost_ron": 2721.69,
+      "stated": 12,
+      "met": 4,
+      "satisfaction_pct": 33.3,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 7,
+          "met": 1
+        },
+        "strong": {
+          "stated": 3,
+          "met": 1
+        },
+        "binding": {
+          "stated": 2,
+          "met": 2
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.0
+    },
+    {
+      "solver": "guided",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "stops": 15,
+      "distance_km": 224.95,
+      "duration_h": 8.39,
+      "waiting_h": 0.0,
+      "days": 1,
+      "monetary_cost_ron": 1774.35,
+      "penalty_h": 0.0,
+      "composite_cost_ron": 1774.87,
+      "stated": 12,
+      "met": 11,
+      "satisfaction_pct": 91.7,
+      "by_band": {
+        "flexible": {
+          "stated": 0,
+          "met": 0
+        },
+        "mild": {
+          "stated": 7,
+          "met": 6
+        },
+        "strong": {
+          "stated": 3,
+          "met": 3
+        },
+        "binding": {
+          "stated": 2,
+          "met": 2
+        }
+      },
+      "binding_missed": 0,
+      "runtime_s": 0.01
+    }
+  ],
+  "solutions": [
+    {
+      "solver": "dispatcher",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "4": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.6,
+          "band": "strong",
+          "hard": false
+        },
+        "5": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "6": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "9": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "10": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "11": {
+          "start_h": 13.0,
+          "end_h": 15.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "12": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "14": {
+          "start_h": 14.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "15": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 3.4999975468963385e-6,
+      "params": {}
+    },
+    {
+      "solver": "nearest",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "route": [
+        15,
+        12,
+        11,
+        9,
+        10,
+        5,
+        8,
+        7,
+        4,
+        6,
+        3,
+        1,
+        14,
+        13,
+        2
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "4": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.6,
+          "band": "strong",
+          "hard": false
+        },
+        "5": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "6": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "9": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "10": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "11": {
+          "start_h": 13.0,
+          "end_h": 15.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "12": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "14": {
+          "start_h": 14.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "15": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.000014874996850267053,
+      "params": {}
+    },
+    {
+      "solver": "concorde",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "route": [
+        13,
+        14,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10,
+        9,
+        11,
+        12,
+        15
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "4": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.6,
+          "band": "strong",
+          "hard": false
+        },
+        "5": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "6": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "9": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "10": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "11": {
+          "start_h": 13.0,
+          "end_h": 15.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "12": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "14": {
+          "start_h": 14.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "15": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.00030191699624992907,
+      "params": {}
+    },
+    {
+      "solver": "ortools",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "route": [
+        15,
+        12,
+        11,
+        9,
+        10,
+        5,
+        7,
+        8,
+        6,
+        4,
+        3,
+        2,
+        1,
+        14,
+        13
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "4": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.6,
+          "band": "strong",
+          "hard": false
+        },
+        "5": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "6": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "9": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "10": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "11": {
+          "start_h": 13.0,
+          "end_h": 15.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "12": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "14": {
+          "start_h": 14.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "15": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 30.0052728469891,
+      "params": {
+        "time_limit_s": 30
+      }
+    },
+    {
+      "solver": "adaptive",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "route": [
+        15,
+        12,
+        11,
+        9,
+        10,
+        5,
+        8,
+        7,
+        4,
+        6,
+        3,
+        1,
+        14,
+        13,
+        2
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "4": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.6,
+          "band": "strong",
+          "hard": false
+        },
+        "5": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "6": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "9": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "10": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "11": {
+          "start_h": 13.0,
+          "end_h": 15.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "12": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "14": {
+          "start_h": 14.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "15": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.00003716700302902609,
+      "params": {}
+    },
+    {
+      "solver": "guided",
+      "instance_id": "DAY_5_TRUCK_4_TRIP_1",
+      "route": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        5,
+        4,
+        10,
+        9,
+        11,
+        12,
+        15,
+        14,
+        13
+      ],
+      "preferences": {
+        "1": {
+          "start_h": 8.0,
+          "end_h": 10.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "2": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "3": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "4": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.6,
+          "band": "strong",
+          "hard": false
+        },
+        "5": {
+          "start_h": 11.0,
+          "end_h": 14.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "6": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "7": {
+          "start_h": 11.0,
+          "end_h": 17.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "8": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.15,
+          "band": "flexible",
+          "hard": false
+        },
+        "9": {
+          "start_h": 12.0,
+          "end_h": 15.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "10": {
+          "start_h": null,
+          "end_h": null,
+          "urgency": 0.0,
+          "band": "flexible",
+          "hard": false
+        },
+        "11": {
+          "start_h": 13.0,
+          "end_h": 15.0,
+          "urgency": 0.45,
+          "band": "strong",
+          "hard": false
+        },
+        "12": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        },
+        "13": {
+          "start_h": 13.0,
+          "end_h": 17.0,
+          "urgency": 0.3,
+          "band": "mild",
+          "hard": false
+        },
+        "14": {
+          "start_h": 14.0,
+          "end_h": 17.0,
+          "urgency": 0.7,
+          "band": "binding",
+          "hard": true
+        },
+        "15": {
+          "start_h": 15.0,
+          "end_h": 17.0,
+          "urgency": 0.25,
+          "band": "mild",
+          "hard": false
+        }
+      },
+      "runtime_s": 0.0051298329926794395,
+      "params": {
+        "penalty_per_hour": 126.52,
+        "start": "ortools"
+      }
+    }
+  ],
+  "skipped": {}
+}
